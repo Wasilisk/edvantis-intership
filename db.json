@@ -1,0 +1,35 @@
+{
+  "layout": {
+    "header": {
+      "logo": {
+        "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e33277186cda400222c9970_optimized_259?nowebp"
+      },
+      "navigation": [
+        {
+          "name": "Promotions",
+          "to": "#promotions"
+        },
+        {
+          "name": "Best-selling",
+          "to": "#best_selling"
+        },
+        {
+          "name": "2020 Collection",
+          "to": "#collection"
+        },
+        {
+          "name": "Testimonials",
+          "to": "#testimonial"
+        },
+        {
+          "name": "Blog",
+          "to": "#blog"
+        },
+        {
+          "name": "Contact us",
+          "to": "#contact_us"
+        }
+      ]
+    }
+  }
+}

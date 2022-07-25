@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component render filled button with dark hover 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ jnzkTG"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button component render filled button with light hover 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ fpcsXZ"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button component render fullwidth button 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ eqFKKQ"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button component render outlined button 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ hmVncp"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button component renders the component 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-bczRLJ hmVncp"
+  >
+    Click me
+  </button>
+</DocumentFragment>
+`;

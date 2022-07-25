@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ djOdHE"
+  >
+    <div
+      class="logo-block"
+    >
+      <img
+        alt="Logo"
+        src="logo.jpg"
+      />
+    </div>
+    <ul
+      class="sc-gsnTZi gigZEl"
+    >
+      <li>
+        <a
+          href="/link1"
+        >
+          Link 1
+        </a>
+      </li>
+      <li>
+        <a
+          href="/link2"
+        >
+          Link 2
+        </a>
+      </li>
+      <li>
+        <a
+          href="/link3"
+        >
+          Link 3
+        </a>
+      </li>
+      <li>
+        <a
+          href="/link4"
+        >
+          Link 4
+        </a>
+      </li>
+    </ul>
+    <button
+      class="sc-dkzDqf jEwdBc"
+    >
+      Shop Now
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Header component should render header component while header data is loading 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ djOdHE"
+  >
+    <div
+      class="logo-block"
+    >
+      <div
+        class="sc-jSMfEi jgEOfq"
+        height="34px"
+        width="110px"
+      />
+    </div>
+    <ul
+      class="sc-gsnTZi gigZEl"
+    />
+    <button
+      class="sc-dkzDqf jEwdBc"
+    >
+      Shop Now
+    </button>
+  </div>
+</DocumentFragment>
+`;

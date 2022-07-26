@@ -31,5 +31,19 @@
         }
       ]
     }
+  },
+  "home_page": {
+    "main_banner": {
+      "highlight": "Furniture",
+      "plain_title": "for Home & Office",
+      "description": "500+ models of cushioned furniture, lamps and accessories.",
+      "image": {
+        "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e34250c4982e30021320262_optimized_1920"
+      },
+      "link": {
+        "name": "Best-selling products",
+        "to": "#to"
+      }
+    }
   }
 }

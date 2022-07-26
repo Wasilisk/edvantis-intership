@@ -1,21 +1,14 @@
-import React, {useEffect} from 'react';
-import Header from "./components/Header";
+import React from 'react';
 import {GlobalStyle} from "./globalStyles";
-import {useAppDispatch} from "./hooks";
-import {getAppLayout} from "./store/slices/AppLayout";
+import Home from "./pages/Home";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
-    const dispatch = useAppDispatch();
-
-    useEffect(() => {
-        dispatch(getAppLayout());
-
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
-
     return (
         <>
-            <Header/>
+            <Routes>
+                <Route index element={<Home/>}/>
+            </Routes>
             <GlobalStyle/>
         </>
     );

@@ -5,6 +5,7 @@ import {ButtonStyles} from "../../common/Button/styles";
 
 export const HeaderMenuStyles = styled.div<HeaderMenuStylesProps>`
   position: fixed;
+  background-color: white;
   display: ${({isOpen}) => isOpen ? "flex": "none"};
   max-width: 100vw;
   max-height: 100vh;

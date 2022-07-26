@@ -7,7 +7,8 @@ export type ButtonProps = {
     hoverVariant?: ButtonHoverVariants,
     fullWidth?: boolean,
     size: ButtonSizes,
-    label: string
+    label: string,
+    hasArrow?: boolean,
 }
 
-export type ButtonStylesProps = Omit<ButtonProps, "label">;
+export type ButtonStylesProps = Omit<ButtonProps, "label" | "hasArrow">;

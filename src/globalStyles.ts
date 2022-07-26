@@ -5,5 +5,9 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     font-family: 'Poppins', 'Hind', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
+  }
+  .highlight {
+    color: #7bb57c;
   }
 `

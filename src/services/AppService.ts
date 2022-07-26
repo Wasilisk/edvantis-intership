@@ -1,12 +1,10 @@
-/*node-modules*/
-import {AxiosResponse} from 'axios';
-
-/*http*/
-import $api from '../http';
+import axios, {AxiosResponse} from 'axios';
 import {LayoutType} from "../models";
+
+axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
 export class AppService {
     static async getAppLayout(): Promise<AxiosResponse<LayoutType>> {
-        return $api.get('layout');
+        return axios.get('layout');
     }
 }

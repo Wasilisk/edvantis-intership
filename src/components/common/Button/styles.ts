@@ -46,6 +46,7 @@ const buttonVariantStyles = (variant: ButtonVariants, hoverVariant: ButtonHoverV
               background-color: #7bb57c;
               border: none;
               color: #ffffff;
+              box-shadow: 0 3px 10px 0 rgb(39 37 40 / 28%);
               
               :hover {
                 background-color: ${hoverVariant === "dark" ? "#333333" : "#ffffff"};
@@ -57,7 +58,7 @@ const buttonVariantStyles = (variant: ButtonVariants, hoverVariant: ButtonHoverV
 }
 
 export const ButtonStyles = styled.button<ButtonStylesProps>`
-  width: ${({fullWidth}) => fullWidth ? "100%" : "auto"};
+  width: ${({fullWidth}) => fullWidth ? "100%" : "fit-content"};
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -68,6 +69,13 @@ export const ButtonStyles = styled.button<ButtonStylesProps>`
   letter-spacing: 0;
   font-weight: 600;
   text-transform: uppercase;
+  text-decoration: none;
+  
+  svg {
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+  }
 
   ${({size}) => buttonSizeStyles(size)}
   ${({variant, hoverVariant}) => buttonVariantStyles(variant, hoverVariant)}

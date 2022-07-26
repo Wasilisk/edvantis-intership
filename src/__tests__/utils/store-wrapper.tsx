@@ -3,6 +3,7 @@ import {render as rtlRender} from '@testing-library/react';
 import {Provider} from 'react-redux';
 import {configureStore} from "@reduxjs/toolkit";
 import AppLayoutReducer from '../../store/slices/AppLayout/index'
+import HomePageReducer from "../../store/slices/HomePage";
 
 const render = (
     ui: ReactElement,
@@ -10,7 +11,8 @@ const render = (
         initialState,
         store = configureStore({
             reducer: {
-                app_layout: AppLayoutReducer
+                app_layout: AppLayoutReducer,
+                home_page: HomePageReducer
             },
             preloadedState: initialState,
         }),

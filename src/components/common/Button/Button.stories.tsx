@@ -19,6 +19,9 @@ export default {
             options: ['dark', 'light'],
             control: { type: 'select' },
         },
+        hasArrow: {
+            control: "boolean"
+        },
         fullWidth: {
             control: "boolean"
         }
@@ -46,3 +49,12 @@ FilledButton.args= {
     fullWidth: false
 };
 
+export const ButtonWithArrow = Template.bind({});
+ButtonWithArrow.args= {
+    variant: "filled",
+    label: "Filled",
+    size: "medium",
+    hoverVariant: "dark",
+    fullWidth: false,
+    hasArrow: true
+};

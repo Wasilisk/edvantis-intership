@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavigationStyles} from "./styles";
 import {NavigationProps} from "./types";
+import {Link} from "react-router-dom";
 
 const Navigation = ({links, isLoading}: NavigationProps) => {
     return (
@@ -9,7 +10,7 @@ const Navigation = ({links, isLoading}: NavigationProps) => {
                 !isLoading && links && links.map((link, index) => <li
                         key={index}
                     >
-                        <a href={link.to}>{link.name}</a>
+                        <Link to={link.to}>{link.name}</Link>
                     </li>)
             }
         </NavigationStyles>

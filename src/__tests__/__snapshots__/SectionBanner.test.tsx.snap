@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section Banner component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ jWCUBa"
+  >
+    <div
+      class="banner-info"
+    >
+      <h2>
+        <span
+          class="highlight"
+        >
+          Styled text 
+        </span>
+        Simple text
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;

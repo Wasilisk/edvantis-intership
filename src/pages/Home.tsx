@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react';
 import Layout from "../components/Layout";
-import MainBanner from "../components/MainBanner";
+import MainBanner from "../components/Banners/MainBanner";
 import {useAppDispatch} from "../hooks";
 import {getHomePageData} from "../store/slices/HomePage";
 import Promotions from "../components/Promotions";
+import SectionBanner from "../components/Banners/SectionBanner";
 
 const Home = () => {
     const dispatch = useAppDispatch();
@@ -18,6 +19,7 @@ const Home = () => {
         <Layout>
             <MainBanner/>
             <Promotions/>
+            <SectionBanner/>
         </Layout>
     );
 };

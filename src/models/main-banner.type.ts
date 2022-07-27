@@ -1,8 +1,7 @@
-import {LinkType} from "./common";
+import {LinkType, StyledTextType} from "./common";
 
 export type MainBannerType = {
-    highlight: string,
-    plain_title: string,
+    title: StyledTextType,
     description: string,
     image: {
         url: string

@@ -1,6 +1,6 @@
 import MainBanner from "../components/MainBanner";
 import {render} from "./utils/store-wrapper";
-import {mockMainBanner} from "./__mock__/mock-main-banner";
+import {mockMainBanner} from "./__mock__";
 import {unstable_HistoryRouter as HistoryRouter} from "react-router-dom";
 import {createMemoryHistory} from "history";
 import {fireEvent} from "@testing-library/react";
@@ -21,10 +21,10 @@ describe('MainBanner component', () => {
         });
         expect(getByTestId('banner')).toHaveStyle(`background-image: url(${mockMainBanner.image.url})`);
 
-        const highlightText = getByText(mockMainBanner.highlight);
+        const highlightText = getByText(mockMainBanner.title.highlight);
         expect(highlightText).toBeDefined();
 
-        const plainText = getByText(mockMainBanner.plain_title);
+        const plainText = getByText(mockMainBanner.title.plain_text);
         expect(plainText).toBeDefined();
 
         const linkButton = getByTestId('link-button');

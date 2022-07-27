@@ -8,6 +8,7 @@ import {HomePageState} from "./types";
 const initialState: HomePageState = {
     main_banner: null,
     promotions: null,
+    section_banner: null,
     isLoading: false,
 }
 

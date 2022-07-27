@@ -7,6 +7,7 @@ import {HomePageState} from "./types";
 
 const initialState: HomePageState = {
     main_banner: null,
+    promotions: null,
     isLoading: false,
 }
 

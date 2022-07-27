@@ -4,7 +4,7 @@ import MenuButton from "./index";
 import {MenuButtonProps} from "./types";
 
 export default {
-    title: 'Buttons/MenuButton',
+    title: 'Application/Buttons/MenuButton',
     component: MenuButton,
     argTypes: {
         isOpen: {

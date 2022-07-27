@@ -92,6 +92,15 @@
           "to": "#promotions"
         }
       }
-    ]
+    ],
+    "section_banner": {
+      "banner_texture": {
+        "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e341fc418c4d700210727e5"
+      },
+      "title": {
+        "highlight": "Top Collections",
+        "plain_text": "of Designer Cushioned Furniture"
+      }
+    }
   }
 }

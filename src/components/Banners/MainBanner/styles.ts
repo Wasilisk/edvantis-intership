@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {MainBannerStylesProps} from "./types";
-import {ButtonStyles} from "../common/Button/styles";
+import {ButtonStyles} from "../../common/Button/styles";
 
 export const MainBannerStyles = styled.div<MainBannerStylesProps>`
   height: calc(100vh - 102px);;

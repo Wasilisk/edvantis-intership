@@ -1,8 +1,8 @@
 import React from 'react';
 import {MainBannerStyles} from './styles';
-import {useAppSelector} from "../../hooks";
-import {selectMainBanner} from "../../store/slices/HomePage/selectors";
-import LinkButton from "../common/LinkButton";
+import {useAppSelector} from "../../../hooks";
+import {selectMainBanner} from "../../../store/slices/HomePage/selectors";
+import LinkButton from "../../common/LinkButton";
 
 const MainBanner = () => {
     const mainBannerData = useAppSelector(selectMainBanner);

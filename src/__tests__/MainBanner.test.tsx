@@ -1,4 +1,4 @@
-import MainBanner from "../components/MainBanner";
+import MainBanner from "../components/Banners/MainBanner";
 import {render} from "./utils/store-wrapper";
 import {mockMainBanner} from "./__mock__";
 import {unstable_HistoryRouter as HistoryRouter} from "react-router-dom";

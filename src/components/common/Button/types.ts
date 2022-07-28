@@ -9,6 +9,8 @@ export type ButtonProps = {
     size: ButtonSizes,
     label: string,
     hasArrow?: boolean,
+    onClick: () => void
 }
 
-export type ButtonStylesProps = Omit<ButtonProps, "label" | "hasArrow">;
+
+export type ButtonStylesProps = Omit<ButtonProps, "label" | "hasArrow" | "onClick">;

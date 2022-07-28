@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ bRiLMA"
+  >
+    <a
+      class="card-image"
+      href="/lord-armchair-miedel-home"
+    >
+      <img
+        alt="Lord armchair, Miedel Home"
+        src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+      />
+    </a>
+    <div
+      class="card-text"
+    >
+      <a
+        href="/lord-armchair-miedel-home"
+      >
+        Lord armchair, Miedel Home
+      </a>
+      <p
+        class="highlight"
+      >
+        120.50USD
+      </p>
+    </div>
+    <button
+      class="sc-gsnTZi eujwRl"
+    >
+      Order Now
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -101,6 +101,39 @@
         "highlight": "Top Collections",
         "plain_text": "of Designer Cushioned Furniture"
       }
+    },
+    "goods_selection": {
+      "title": "Best-selling Products",
+      "description": "Our customers' faves of the week",
+      "products": [
+        {
+          "id": 1,
+          "search_name": "lord-armchair-miedel-home",
+          "name": "Lord armchair, Miedel Home",
+          "price": 120,
+          "image": {
+            "url": "https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          }
+        },
+        {
+          "id": 2,
+          "search_name": "ultimate-green-chair-xodo-1",
+          "name": "Ultimate Green chair, XODO",
+          "price": 90,
+          "image": {
+            "url": "https://e-c.storage.googleapis.com/res/5f731cb4e7179b1a6552ce5f/480"
+          }
+        },
+        {
+          "id": 3,
+          "search_name": "valetta-armchair-zix-studio",
+          "name": "Valetta armchair, ZIX studio",
+          "price": 310,
+          "image": {
+            "url": "https://e-c.storage.googleapis.com/res/5f731d7be7179b3e8352ce65/480"
+          }
+        }
+      ]
     }
   }
 }

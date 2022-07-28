@@ -9,6 +9,5 @@ export const GlobalStyle = createGlobalStyle`
   }
   .highlight {
     color: #7bb57c;
-    font-weight: 600;
   }
 `

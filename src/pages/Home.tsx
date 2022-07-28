@@ -5,6 +5,7 @@ import {useAppDispatch} from "../hooks";
 import {getHomePageData} from "../store/slices/HomePage";
 import Promotions from "../components/Promotions";
 import SectionBanner from "../components/Banners/SectionBanner";
+import GoodsSelection from "../components/GoodsSelection";
 
 const Home = () => {
     const dispatch = useAppDispatch();
@@ -20,6 +21,7 @@ const Home = () => {
             <MainBanner/>
             <Promotions/>
             <SectionBanner/>
+            <GoodsSelection/>
         </Layout>
     );
 };

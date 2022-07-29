@@ -1,17 +1,17 @@
 import React from 'react';
 import {NavigationStyles} from "./styles";
-import {NavigationProps} from "./types";
 import {Link} from "react-router-dom";
+import {NavigationProps} from "./types";
 
-const Navigation = ({links, isLoading}: NavigationProps) => {
+const Navigation = ({links}: NavigationProps) => {
     return (
         <NavigationStyles>
             {
-                !isLoading && links && links.map((link, index) => <li
-                        key={index}
-                    >
-                        <Link to={link.to}>{link.name}</Link>
-                    </li>)
+                links.map((link, index) => <li
+                    key={index}
+                >
+                    <Link to={link.to}>{link.name}</Link>
+                </li>)
             }
         </NavigationStyles>
     );

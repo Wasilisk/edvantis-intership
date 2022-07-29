@@ -1,18 +1,17 @@
 import React from 'react';
-import {useAppSelector} from "../../hooks";
-import {selectPromotions} from "../../store/slices/HomePage/selectors";
 import {PromotionsStyles} from "./styles";
-import PromotionCard from "./PromotionCard";
+import PromotionCard from "../Cards/PromotionCard";
+import {PromotionsProps} from "./types";
 
-const Promotions = () => {
-    const promotionsData = useAppSelector(selectPromotions);
+const Promotions = ({promotions}: PromotionsProps) => {
+    const isDataCorrect = promotions && promotions.length >=3
 
     return (
        <PromotionsStyles>
             {
-                promotionsData && promotionsData.slice(0,3).map(promotion => <PromotionCard
+                isDataCorrect && promotions.slice(0,3).map(promotion => <PromotionCard
                     key={promotion.id}
-                    content={promotion}
+                    {...promotion}
                 />)
             }
         </PromotionsStyles>

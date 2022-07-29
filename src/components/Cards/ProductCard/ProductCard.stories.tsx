@@ -15,32 +15,32 @@ const mockProductCard = {
 }
 
 export default {
-    title: 'Application/ProductCard',
+    title: 'Application/Cards/ProductCard',
     component: ProductCard,
     decorators: [
         (Story: Story) => (
-            <div style={{ width: "300px" }}>
-                <Story />
+            <div style={{width: "30%"}}>
+                <Story/>
             </div>
-        ),
-    ],
+        )
+    ]
 };
 
 const Template: Story<ProductCardProps> = (props) => <BrowserRouter>
     <ProductCard
-    content={props.content}
-    buttonVariant={props.buttonVariant}
-/>
+        {...mockProductCard}
+        buttonVariant={props.buttonVariant}
+    />
 </BrowserRouter>;
 
 export const WithOutlinedButton = Template.bind({});
 WithOutlinedButton.args = {
-    content: mockProductCard,
+    ...mockProductCard,
     buttonVariant: "outlined"
 };
 
 export const WithFilledButton = Template.bind({});
 WithFilledButton.args = {
-    content: mockProductCard,
+    ...mockProductCard,
     buttonVariant: "filled"
 };

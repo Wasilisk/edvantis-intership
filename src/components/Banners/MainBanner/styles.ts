@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {MainBannerStylesProps} from "./types";
-import {ButtonStyles} from "../../common/Button/styles";
+import {LinkButtonStyles} from "../../common/LinkButton/styles";
 
 export const MainBannerStyles = styled.div<MainBannerStylesProps>`
   height: calc(100vh - 102px);;
@@ -65,7 +65,7 @@ export const MainBannerStyles = styled.div<MainBannerStylesProps>`
       }
     }
     
-    ${ButtonStyles} {
+    ${LinkButtonStyles} {
       width: auto;
     }
   }

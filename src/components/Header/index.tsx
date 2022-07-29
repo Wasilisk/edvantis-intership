@@ -2,30 +2,23 @@ import React from 'react';
 import {HeaderStyles} from "./styles";
 import Navigation from "./Navigation";
 import Button from "../common/Button";
-import {useAppSelector, useMediaQuery} from "../../hooks";
+import {useMediaQuery} from "../../hooks";
 import HeaderMenu from "./HeaderMenu";
-import {selectHeader, selectIsLayoutLoading} from "../../store/slices/AppLayout/selectors";
-import Skeleton from "../common/Skeleton";
+import {HeaderType} from "../../models";
 
-const Header = () => {
+const Header = ({logo, navigation}: HeaderType) => {
     const isMobile = useMediaQuery("(max-width: 1024px)");
-    const headerInfo = useAppSelector(selectHeader);
-    const isHeaderLoading = useAppSelector(selectIsLayoutLoading);
 
     return (
         <HeaderStyles>
             <div className="logo-block">
-                {
-                    isHeaderLoading
-                        ? <Skeleton variant="rounded" height="34px" width="110px"/>
-                        : headerInfo && <img src={headerInfo.logo.url} alt="Logo"/>
-                }
+                <img src={logo?.url} alt="Logo"/>
             </div>
             {
                 isMobile
-                    ? <HeaderMenu isLoading={isHeaderLoading} links={headerInfo && headerInfo.navigation}/>
+                    ? <HeaderMenu links={navigation}/>
                     : <>
-                        <Navigation isLoading={isHeaderLoading} links={headerInfo && headerInfo.navigation}/>
+                        <Navigation links={navigation}/>
                         <Button variant="outlined" size="small" label="Shop Now" onClick={() => {}}/> //ToDo add OnClick logic
                     </>
             }

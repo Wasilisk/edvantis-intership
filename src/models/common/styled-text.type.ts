@@ -1,4 +1,5 @@
 export type StyledTextType = {
-    highlight: string,
-    plain_text: string,
+    before_highlight?: string,
+    highlight?: string,
+    after_highlight?: string,
 }

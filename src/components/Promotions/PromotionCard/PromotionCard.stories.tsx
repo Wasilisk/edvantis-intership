@@ -31,7 +31,7 @@ Default.args = {
         },
         title: {
             highlight: "NEW!",
-            plain_text: "Modern Collection"
+            after_highlight: "Modern Collection"
         },
         link: {
             name: "Learn more",

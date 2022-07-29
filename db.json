@@ -36,7 +36,7 @@
     "main_banner": {
       "title": {
         "highlight": "Furniture",
-        "plain_text": "for Home & Office"
+        "after_highlight": "for Home & Office"
       },
       "description": "500+ models of cushioned furniture, lamps and accessories.",
       "image": {
@@ -56,7 +56,7 @@
         },
         "title": {
           "highlight": "15% off",
-          "plain_text": "on Tables & Cabinets"
+          "after_highlight": "on Tables & Cabinets"
         },
         "link": {
           "name": "Learn more",
@@ -70,7 +70,7 @@
           "alt": "White Collection"
         },
         "title": {
-          "plain_text": "All-White Collection in Store"
+          "before_highlight": "All-White Collection in Store"
         },
         "link": {
           "name": "Learn more",
@@ -85,7 +85,7 @@
         },
         "title": {
           "highlight": "NEW!",
-          "plain_text": "Modern Collection by ARM"
+          "after_highlight": "Modern Collection by ARM"
         },
         "link": {
           "name": "Learn more",

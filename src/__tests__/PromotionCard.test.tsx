@@ -21,7 +21,7 @@ describe('PromotionCard component', () => {
         expect(highlightText).toBeDefined();
         expect(highlightText).toHaveClass(`highlight`);
 
-        const plainText = getByText(mockPromotions[0].title.plain_text);
+        const plainText = getByText(mockPromotions[0].title.after_highlight!);
         expect(plainText).toBeDefined();
 
         const link = getByText(mockPromotions[0].link.name);
@@ -44,7 +44,7 @@ describe('PromotionCard component', () => {
         const highlightText = queryByText("New!");
         expect(highlightText).not.toBeInTheDocument();
 
-        const plainText = getByText(mockPromotions[2].title.plain_text);
+        const plainText = getByText(mockPromotions[2].title.after_highlight!);
         expect(plainText).toBeDefined();
 
         const link = getByText(mockPromotions[2].link.name);

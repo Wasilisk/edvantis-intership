@@ -1,4 +1,4 @@
-import {LinkType} from "./common";
+import {LinkType, StyledTextType} from "./common";
 
 export type PromotionType = {
     id: number,
@@ -6,9 +6,6 @@ export type PromotionType = {
         url: string,
         alt: string
     },
-    title: {
-        highlight?: string,
-        plain_text: string
-    }
+    title: StyledTextType,
     link: LinkType
 }

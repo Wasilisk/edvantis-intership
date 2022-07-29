@@ -17,7 +17,7 @@ exports[`PromotionCard component should render component 1`] = `
       <span
         class="highlight"
       >
-        NEW! 
+        NEW! 
       </span>
       Modern Collection
     </h4>

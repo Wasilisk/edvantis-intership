@@ -1,73 +1,73 @@
-import {fireEvent, render} from "@testing-library/react";
-import Button from "../components/common/Button";
+import {fireEvent} from "@testing-library/react";
+import LinkButton from "../components/common/LinkButton";
+import {mockHistory} from "./utils/history-wrapper";
+import { render } from "./utils/store-wrapper";
 
-describe('Button component', () => {
-    const onClick = jest.fn();
+describe('LinkButton component', () => {
     it('should render outlined button', () => {
-        const {asFragment} = render(<Button
+        const {asFragment} = render(<LinkButton
             variant="outlined"
             size="small"
             label="Click me"
-            onClick={onClick}
+            to="/link"
+
         />);
         expect(asFragment()).toMatchSnapshot();
     })
     it('should render filled button with dark hover', () => {
-        const {asFragment} = render(<Button
+        const {asFragment} = render(<LinkButton
             variant="filled"
             size="small"
             label="Click me"
-            onClick={onClick}
+            to="/link"
         />);
         expect(asFragment()).toMatchSnapshot();
     })
     it('should render filled button with light hover', () => {
-        const {asFragment} = render(<Button
+        const {asFragment} = render(<LinkButton
             variant="filled"
             size="small"
             label="Click me"
             hoverVariant="light"
-            onClick={onClick}
+            to="/link"
         />);
         expect(asFragment()).toMatchSnapshot();
     })
     it('should render fullwidth button', () => {
-        const {asFragment} = render(<Button
+        const {asFragment} = render(<LinkButton
             variant="outlined"
             size="medium"
             label="Click me"
             fullWidth
-            onClick={onClick}
+            to="/link"
         />);
         expect(asFragment()).toMatchSnapshot();
     })
     it('should render button with arrow', () => {
-        const {container, asFragment} = render(<Button
+        const {container, asFragment} = render(<LinkButton
             variant="outlined"
             size="medium"
             label="Click me"
             fullWidth
             hasArrow
-            onClick={onClick}
+            to="/link"
         />);
 
         const buttonArrow = container.querySelector('button');
         expect(buttonArrow).toBeDefined()
         expect(asFragment()).toMatchSnapshot();
     })
-    it('should call the callback', () => {
-        const {container, asFragment} = render(<Button
+    it('should redirect when clicked', () => {
+        const {container, asFragment} = render(<LinkButton
             variant="outlined"
             size="medium"
             label="Click me"
-            fullWidth
-            hasArrow
-            onClick={onClick}
+            to="/link"
         />);
 
-        const button = container.firstChild
-        fireEvent.click(button!);
-        expect(onClick).toHaveBeenCalled();
+        fireEvent.click(container.firstChild!);
+        expect(mockHistory.location.pathname).toBe("/link");
+
         expect(asFragment()).toMatchSnapshot();
     })
 })

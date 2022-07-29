@@ -1,16 +1,14 @@
-import {render} from "@testing-library/react";
 import Navigation from "../components/Header/Navigation";
 import {mockLinks} from "./__mock__";
+import {render} from "./utils/store-wrapper";
 
 describe('Navigation component', () => {
     it('should render navigation links', () => {
-        const {asFragment, getByText} = render(<Navigation isLoading={false} links={mockLinks}/>);
+        const {asFragment, getByText} = render(<Navigation links={mockLinks}/>);
+        expect(getByText('Link 1')).toBeInTheDocument();
         expect(getByText('Link 2')).toBeInTheDocument();
+        expect(getByText('Link 3')).toBeInTheDocument();
+        expect(getByText('Link 4')).toBeInTheDocument();
         expect(asFragment()).toMatchSnapshot();
-    })
-    it('should be empty while header is loading', () => {
-        const {container} = render(<Navigation isLoading={true} links={mockLinks}/>);
-        expect(container.firstChild).toBeEmptyDOMElement()
-        expect(container).not.toHaveTextContent('Link 1');
     })
 })

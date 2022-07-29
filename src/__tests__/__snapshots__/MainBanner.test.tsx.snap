@@ -12,7 +12,7 @@ exports[`MainBanner component should render component 1`] = `
         <span
           class="highlight"
         >
-          Highlight text 
+          Highlight text 
         </span>
         Simple text
       </h1>
@@ -20,11 +20,11 @@ exports[`MainBanner component should render component 1`] = `
         Main banner description
       </p>
       <a
-        class="sc-dkzDqf iAIAae"
+        class="sc-bczRLJ gLqqtr"
         href="/home/link"
       >
         <button
-          class="sc-bczRLJ cVUypQ"
+          class="sc-dkzDqf hTVmxt"
           data-testid="link-button"
         >
           Link name

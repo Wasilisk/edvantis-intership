@@ -1,18 +1,12 @@
 import {render} from "./utils/store-wrapper";
-import {unstable_HistoryRouter as HistoryRouter} from "react-router-dom";
-import {createMemoryHistory} from "history";
 import {fireEvent} from "@testing-library/react";
-import PromotionCard from "../components/Promotions/PromotionCard";
+import PromotionCard from "../components/Cards/PromotionCard";
 import {mockPromotions} from "./__mock__";
+import {mockHistory} from "./utils/history-wrapper";
 
 describe('PromotionCard component', () => {
     it('should render component', () => {
-        const history = createMemoryHistory({ initialEntries: ['/'] });
-        const {getByText, asFragment, getByAltText} = render(
-            <HistoryRouter history={history}>
-                <PromotionCard content={mockPromotions[0]}/>
-            </HistoryRouter>
-            );
+        const {getByText, asFragment, getByAltText} = render(<PromotionCard {...mockPromotions[0]}/>);
 
         const cardImage = getByAltText(mockPromotions[0].image.alt);
         expect(cardImage).toHaveAttribute('src', mockPromotions[0].image.url);
@@ -26,16 +20,12 @@ describe('PromotionCard component', () => {
 
         const link = getByText(mockPromotions[0].link.name);
         fireEvent.click(link);
-        expect(history.location.pathname).toBe(mockPromotions[0].link.to);
+        expect(mockHistory.location.pathname).toBe(mockPromotions[0].link.to);
 
         expect(asFragment()).toMatchSnapshot();
     })
     it('should render component without highlight text', () => {
-        const history = createMemoryHistory({ initialEntries: ['/'] });
-        const {queryByText, getByText, asFragment, getByAltText} = render(
-            <HistoryRouter history={history}>
-                <PromotionCard content={mockPromotions[2]}/>
-            </HistoryRouter>
+        const {queryByText, getByText, asFragment, getByAltText} = render(<PromotionCard {...mockPromotions[2]}/>
         );
 
         const cardImage = getByAltText(mockPromotions[2].image.alt);
@@ -49,7 +39,7 @@ describe('PromotionCard component', () => {
 
         const link = getByText(mockPromotions[2].link.name);
         fireEvent.click(link);
-        expect(history.location.pathname).toBe(mockPromotions[2].link.to);
+        expect(mockHistory.location.pathname).toBe(mockPromotions[2].link.to);
 
         expect(asFragment()).toMatchSnapshot();
     })

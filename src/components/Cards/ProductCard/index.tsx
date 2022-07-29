@@ -1,22 +1,22 @@
 import React from 'react';
 import { ProductCardStyles } from './styles';
 import {ProductCardProps} from "./types";
-import Button from "../common/Button";
+import Button from "../../common/Button";
 import {Link} from "react-router-dom";
 
-const ProductCard = ({content, buttonVariant}: ProductCardProps) => {
+const ProductCard = ({search_name, image, name, price, buttonVariant}: ProductCardProps) => {
 
-    const clickHandler = () => console.log(content.search_name);
+    const clickHandler = () => console.log(search_name); //ToDo add product card logic
 
     return (
         <ProductCardStyles>
-            <Link className="card-image" to={content.search_name}>
-                <img src={content.image.url} alt={content.name}/>
+            <Link className="card-image" to={search_name}>
+                <img src={image?.url} alt={name}/>
             </Link>
             <div className="card-text">
-                <Link to={content.search_name}>{content.name}</Link>
+                <Link to={search_name}>{name}</Link>
                 <p className="highlight">
-                    {content.price.toFixed(2)}USD
+                    {price.toFixed(2)}USD
                 </p>
             </div>
             <Button

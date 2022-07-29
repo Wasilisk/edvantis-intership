@@ -1,11 +1,13 @@
 import React, {useEffect} from 'react';
 import {LayoutProps} from "./types";
 import Header from "../Header";
-import {useAppDispatch} from "../../hooks";
+import {useAppDispatch, useAppSelector} from "../../hooks";
 import {getAppLayout} from "../../store/slices/AppLayout";
+import {selectHeader} from "../../store/slices/AppLayout/selectors";
 
 const Layout = ({children}: LayoutProps) => {
     const dispatch = useAppDispatch();
+    const headerInfo = useAppSelector(selectHeader);
 
     useEffect(() => {
         dispatch(getAppLayout());
@@ -15,7 +17,7 @@ const Layout = ({children}: LayoutProps) => {
 
     return (
         <>
-            <Header/>
+            {headerInfo && <Header {...headerInfo}/>}
             {children}
         </>
     );

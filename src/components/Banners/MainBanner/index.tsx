@@ -1,26 +1,23 @@
 import React from 'react';
 import {MainBannerStyles} from './styles';
-import {useAppSelector} from "../../../hooks";
-import {selectMainBanner} from "../../../store/slices/HomePage/selectors";
 import LinkButton from "../../common/LinkButton";
 import StyledText from "../../common/StyledText";
+import {BannerType} from "../../../models";
 
-const MainBanner = () => {
-    const mainBannerData = useAppSelector(selectMainBanner);
-
+const MainBanner = ({title, description, link, image}: BannerType) => {
     return (
-        mainBannerData && <MainBannerStyles backgroundImage={mainBannerData.image.url}>
+        <MainBannerStyles backgroundImage={image?.url}>
             <div className="banner-info">
                 <h1>
-                    <StyledText content={mainBannerData.title}/>
+                    <StyledText {...title}/>
                 </h1>
-                <p>{mainBannerData.description}</p>
+                <p>{description}</p>
                 <LinkButton
                     data-testid="link-button"
-                    to={mainBannerData.link.to}
+                    to={link?.to}
                     variant="filled"
                     size="large"
-                    label={mainBannerData.link.name}
+                    label={link?.name}
                     hasArrow
                     fullWidth={false}
                 />

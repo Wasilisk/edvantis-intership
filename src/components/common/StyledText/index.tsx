@@ -1,15 +1,15 @@
 import React from 'react';
-import {StyledTextProps} from "./types";
+import {StyledTextType} from "../../../models/common";
 
-const StyledText = ({content}: StyledTextProps) => {
+const StyledText = ({before_highlight, highlight, after_highlight}: StyledTextType) => {
     return (
         <>
-            {content.before_highlight && <>{content.before_highlight}&nbsp;</>}
+            {before_highlight && <>{before_highlight} </>}
             {
-                content.highlight &&
-                <span className="highlight">{content.highlight}&nbsp;</span>
+                highlight &&
+                <span className="highlight">{highlight} </span>
             }
-            {content.after_highlight && content.after_highlight}
+            {after_highlight && after_highlight}
         </>
     );
 };

@@ -1,4 +1,6 @@
-export const mockPromotions = [
+import {PromotionType} from "../../models";
+
+export const mockPromotions: PromotionType[] = [
     {
         id: 1,
         image: {

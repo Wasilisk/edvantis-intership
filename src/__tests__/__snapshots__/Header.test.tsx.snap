@@ -3,7 +3,7 @@
 exports[`Header component should render header component 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ djOdHE"
+    class="sc-bczRLJ dRfNBy"
   >
     <div
       class="logo-block"
@@ -46,36 +46,11 @@ exports[`Header component should render header component 1`] = `
       </li>
     </ul>
     <button
-      class="sc-dkzDqf jEwdBc"
+      class="sc-dkzDqf bVTChy"
     >
       Shop Now
     </button>
-  </div>
-</DocumentFragment>
-`;
-
-exports[`Header component should render header component while header data is loading 1`] = `
-<DocumentFragment>
-  <div
-    class="sc-bczRLJ djOdHE"
-  >
-    <div
-      class="logo-block"
-    >
-      <div
-        class="sc-jSMfEi jgEOfq"
-        height="34px"
-        width="110px"
-      />
-    </div>
-    <ul
-      class="sc-gsnTZi gigZEl"
-    />
-    <button
-      class="sc-dkzDqf jEwdBc"
-    >
-      Shop Now
-    </button>
+     //ToDo add OnClick logic
   </div>
 </DocumentFragment>
 `;

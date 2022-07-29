@@ -1,23 +1,17 @@
 import {render} from "./utils/store-wrapper";
 import {fireEvent} from "@testing-library/react";
-import ProductCard from "../components/ProductCard";
-import {unstable_HistoryRouter as HistoryRouter} from "react-router-dom";
+import ProductCard from "../components/Cards/ProductCard";
 import {mockProductCard} from "./__mock__/mock-product-card";
-import {createMemoryHistory} from "history";
+import {mockHistory} from "./utils/history-wrapper";
 
 describe('ProductCard component', () => {
     it('should render component', () => {
-        const history = createMemoryHistory({initialEntries: ['/']});
-        const {getByText, asFragment, getByAltText} = render(
-            <HistoryRouter history={history}>
-                <ProductCard content={mockProductCard} buttonVariant="filled"/>
-            </HistoryRouter>
-        );
+        const {getByText, asFragment, getByAltText} = render(<ProductCard {...mockProductCard} buttonVariant="filled"/>);
 
         const cardImage = getByAltText(mockProductCard.name);
         expect(cardImage).toHaveAttribute('src', mockProductCard.image.url);
         fireEvent.click(cardImage);
-        expect(history.location.pathname).toBe(`/${mockProductCard.search_name}`);
+        expect(mockHistory.location.pathname).toBe(`/${mockProductCard.search_name}`);
 
         const productName = getByText(mockProductCard.name);
         expect(productName).toBeDefined();

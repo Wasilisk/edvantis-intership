@@ -6,7 +6,7 @@ exports[`Promotions component should render component 1`] = `
     class="sc-bczRLJ jRtqKh"
   >
     <div
-      class="sc-dkzDqf eEBeqY"
+      class="sc-dkzDqf jbkxsd"
     >
       <div
         class="card-image"
@@ -20,7 +20,7 @@ exports[`Promotions component should render component 1`] = `
         <span
           class="highlight"
         >
-          NEW! 
+          NEW! 
         </span>
         Modern Collection
       </h4>
@@ -47,7 +47,7 @@ exports[`Promotions component should render component 1`] = `
       </a>
     </div>
     <div
-      class="sc-dkzDqf eEBeqY"
+      class="sc-dkzDqf jbkxsd"
     >
       <div
         class="card-image"
@@ -61,13 +61,13 @@ exports[`Promotions component should render component 1`] = `
         <span
           class="highlight"
         >
-          NEW! 
+          NEW! 
         </span>
         Modern Collection
       </h4>
       <a
         class="sc-gsnTZi bFmijT"
-        href="/#promotions"
+        href="/promotions"
       >
         Learn more 
         <svg
@@ -88,7 +88,7 @@ exports[`Promotions component should render component 1`] = `
       </a>
     </div>
     <div
-      class="sc-dkzDqf eEBeqY"
+      class="sc-dkzDqf jbkxsd"
     >
       <div
         class="card-image"
@@ -99,16 +99,11 @@ exports[`Promotions component should render component 1`] = `
         />
       </div>
       <h4>
-        <span
-          class="highlight"
-        >
-          NEW! 
-        </span>
         Modern Collection
       </h4>
       <a
         class="sc-gsnTZi bFmijT"
-        href="/#promotions"
+        href="/promotions"
       >
         Learn more 
         <svg

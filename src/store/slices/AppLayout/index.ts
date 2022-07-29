@@ -1,6 +1,6 @@
 import {createAsyncThunk, createSlice} from '@reduxjs/toolkit'
 import type {PayloadAction} from '@reduxjs/toolkit'
-import {AppService} from "../../../services/AppService";
+import {AppService} from "../../../services";
 import {LayoutType} from "../../../models";
 import {AppLayoutState} from "./types";
 

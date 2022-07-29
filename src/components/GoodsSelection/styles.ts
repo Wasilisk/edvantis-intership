@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {ProductCardStyles} from "../ProductCard/styles";
+import {ProductCardStyles} from "../Cards/ProductCard/styles";
 
 export const GoodsSelectionStyles = styled.div`
   max-width: 1200px;

@@ -1,6 +1,6 @@
-import {MainBannerType} from "../../models";
+import {BannerType} from "../../models";
 
-export const mockMainBanner: MainBannerType = {
+export const mockBanner: BannerType = {
     title: {
         highlight: "Highlight text",
         after_highlight: "Simple text",

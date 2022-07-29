@@ -2,6 +2,7 @@ import React from 'react';
 import {PromotionCardProps} from "./types";
 import {PromotionCardStyles} from "./styles";
 import CustomLink from '../../common/CustomLink';
+import StyledText from "../../common/StyledText";
 
 const PromotionCard = ({content}: PromotionCardProps) => {
     const {image, title, link} = content
@@ -12,10 +13,7 @@ const PromotionCard = ({content}: PromotionCardProps) => {
                 <img src={image.url} alt={image.alt}/>
             </div>
             <h4>
-                {
-                    title.highlight && <span className="highlight">{title.highlight}&nbsp;</span>
-                }
-                {title.plain_text}
+                <StyledText content={title}/>
             </h4>
             <CustomLink to={link.to} label={link.name}/>
         </PromotionCardStyles>

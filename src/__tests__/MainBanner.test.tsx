@@ -21,10 +21,10 @@ describe('MainBanner component', () => {
         });
         expect(getByTestId('banner')).toHaveStyle(`background-image: url(${mockMainBanner.image.url})`);
 
-        const highlightText = getByText(mockMainBanner.title.highlight);
+        const highlightText = getByText(mockMainBanner.title.highlight!);
         expect(highlightText).toBeDefined();
 
-        const plainText = getByText(mockMainBanner.title.plain_text);
+        const plainText = getByText(mockMainBanner.title.after_highlight!);
         expect(plainText).toBeDefined();
 
         const linkButton = getByTestId('link-button');

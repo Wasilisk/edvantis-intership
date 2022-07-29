@@ -16,10 +16,10 @@ describe('Section Banner component', () => {
 
         expect(container.firstChild).toHaveStyle(`background-image: url(${mockSectionBanner.banner_texture.url})`);
 
-        const highlightText = getByText(mockSectionBanner.title.highlight);
+        const highlightText = getByText(mockSectionBanner.title.highlight!);
         expect(highlightText).toBeDefined();
 
-        const plainText = getByText(mockSectionBanner.title.plain_text);
+        const plainText = getByText(mockSectionBanner.title.after_highlight!);
         expect(plainText).toBeDefined();
         expect(asFragment()).toMatchSnapshot();
     })

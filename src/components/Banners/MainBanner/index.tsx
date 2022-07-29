@@ -3,6 +3,7 @@ import {MainBannerStyles} from './styles';
 import {useAppSelector} from "../../../hooks";
 import {selectMainBanner} from "../../../store/slices/HomePage/selectors";
 import LinkButton from "../../common/LinkButton";
+import StyledText from "../../common/StyledText";
 
 const MainBanner = () => {
     const mainBannerData = useAppSelector(selectMainBanner);
@@ -11,8 +12,7 @@ const MainBanner = () => {
         mainBannerData && <MainBannerStyles backgroundImage={mainBannerData.image.url}>
             <div className="banner-info">
                 <h1>
-                    <span className="highlight">{mainBannerData.title.highlight}&nbsp;</span>
-                    {mainBannerData.title.plain_text}
+                    <StyledText content={mainBannerData.title}/>
                 </h1>
                 <p>{mainBannerData.description}</p>
                 <LinkButton

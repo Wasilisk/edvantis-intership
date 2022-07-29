@@ -2,6 +2,7 @@ import React from 'react';
 import {SectionBannerStyles} from './styles';
 import {useAppSelector} from "../../../hooks";
 import {selectSectionBanner} from "../../../store/slices/HomePage/selectors";
+import StyledText from "../../common/StyledText";
 
 const SectionBanner = () => {
     const sectionBannerContent = useAppSelector(selectSectionBanner);
@@ -10,11 +11,7 @@ const SectionBanner = () => {
         sectionBannerContent && <SectionBannerStyles backgroundImage={sectionBannerContent.banner_texture.url}>
             <div className="banner-info">
                 <h2>
-                    {
-                        sectionBannerContent.title.highlight &&
-                        <span className="highlight">{sectionBannerContent.title.highlight}&nbsp;</span>
-                    }
-                    {sectionBannerContent.title.plain_text}
+                    <StyledText content={sectionBannerContent.title}/>
                 </h2>
             </div>
         </SectionBannerStyles>

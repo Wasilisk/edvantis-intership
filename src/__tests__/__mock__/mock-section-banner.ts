@@ -6,6 +6,6 @@ export const mockSectionBanner: SectionBannerType = {
     },
     title: {
         highlight: "Styled text",
-        plain_text: "Simple text"
+        after_highlight: "Simple text"
     }
 }

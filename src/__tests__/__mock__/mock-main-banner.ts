@@ -3,7 +3,7 @@ import {MainBannerType} from "../../models";
 export const mockMainBanner: MainBannerType = {
     title: {
         highlight: "Highlight text",
-        plain_text: "Simple text",
+        after_highlight: "Simple text",
     },
     description: "Main banner description",
     image: {

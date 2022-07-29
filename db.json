@@ -99,7 +99,7 @@
       },
       "title": {
         "highlight": "Top Collections",
-        "plain_text": "of Designer Cushioned Furniture"
+        "after_highlight": "of Designer Cushioned Furniture"
       }
     },
     "goods_selection": {
@@ -134,6 +134,21 @@
           }
         }
       ]
+    },
+    "parallax_banner": {
+      "title": {
+        "before_highlight": "Spring",
+        "highlight": "2020",
+        "after_highlight": "collection"
+      },
+      "description": "Best styles for your home or office in the most trending colors of 2020. Shop cushioned furniture, lamps, coffee tables and accessories here.",
+      "image": {
+        "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31adf6a948e70023c38554_optimized_1920"
+      },
+      "link": {
+        "name": "OUR FAVES",
+        "to": "#to"
+      }
     }
   }
 }

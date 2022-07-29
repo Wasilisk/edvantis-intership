@@ -2,12 +2,13 @@ import { configureStore } from '@reduxjs/toolkit'
 import AppLayoutReducer from './slices/AppLayout'
 import HomePageReducer from "./slices/HomePage";
 
+export const rootReducer = {
+    app_layout: AppLayoutReducer,
+    home_page: HomePageReducer
+}
 
 export const store = configureStore({
-    reducer: {
-        app_layout: AppLayoutReducer,
-        home_page: HomePageReducer
-    },
+    reducer: rootReducer,
 })
 
 

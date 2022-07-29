@@ -1,6 +1,6 @@
-import {LinkType, StyledTextType} from "./common";
+import {LinkType, StyledTextType} from "./index";
 
-export type MainBannerType = {
+export type BannerType = {
     title: StyledTextType,
     description: string,
     image: {

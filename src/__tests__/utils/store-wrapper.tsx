@@ -2,25 +2,26 @@ import React, {ReactElement, ReactNode} from 'react';
 import {render as rtlRender} from '@testing-library/react';
 import {Provider} from 'react-redux';
 import {configureStore} from "@reduxjs/toolkit";
-import AppLayoutReducer from '../../store/slices/AppLayout/index'
-import HomePageReducer from "../../store/slices/HomePage";
+import HistoryWrapper from "./history-wrapper";
+import {rootReducer} from "../../store";
 
 const render = (
     ui: ReactElement,
     {
         initialState,
         store = configureStore({
-            reducer: {
-                app_layout: AppLayoutReducer,
-                home_page: HomePageReducer
-            },
+            reducer: rootReducer,
             preloadedState: initialState,
         }),
         ...renderOptions
     }: any = {}
 ) => {
     function Wrapper({children}: { children: ReactNode }) {
-        return <Provider store={store}>{children}</Provider>
+        return <HistoryWrapper>
+            <Provider store={store}>
+                {children}
+            </Provider>
+        </HistoryWrapper>
     }
 
     return rtlRender(ui, {wrapper: Wrapper, ...renderOptions});

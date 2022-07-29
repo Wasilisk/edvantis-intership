@@ -13,6 +13,12 @@ module.exports = {
   core: {
     builder: "@storybook/builder-webpack5"
   },
+  "previewHead": (head) => (`
+    ${head}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  `),
   typescript: {
     check: false,
     checkOptions: {},

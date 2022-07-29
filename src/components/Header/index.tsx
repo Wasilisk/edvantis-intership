@@ -26,7 +26,7 @@ const Header = () => {
                     ? <HeaderMenu isLoading={isHeaderLoading} links={headerInfo && headerInfo.navigation}/>
                     : <>
                         <Navigation isLoading={isHeaderLoading} links={headerInfo && headerInfo.navigation}/>
-                        <Button variant="outlined" size="small" label="Shop Now"/>
+                        <Button variant="outlined" size="small" label="Shop Now" onClick={() => {}}/> //ToDo add OnClick logic
                     </>
             }
         </HeaderStyles>

@@ -28,7 +28,7 @@ export const mockPromotions: PromotionType[] = [
         },
         link: {
             name: "Learn more",
-            to: "#promotions"
+            to: "/promotions"
         }
     },
     {
@@ -38,12 +38,11 @@ export const mockPromotions: PromotionType[] = [
             alt: "Modern Collection"
         },
         title: {
-            highlight: "NEW!",
             plain_text: "Modern Collection"
         },
         link: {
             name: "Learn more",
-            to: "#promotions"
+            to: "/promotions"
         }
     },
     {
@@ -58,7 +57,7 @@ export const mockPromotions: PromotionType[] = [
         },
         link: {
             name: "Learn more",
-            to: "#promotions"
+            to: "/promotions"
         }
     }
 ]

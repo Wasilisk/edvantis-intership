@@ -21,6 +21,10 @@ export const PromotionCardStyles = styled.div`
     }
   }
   
+  span {
+    font-weight: 600;
+  }
+  
   h4 {
     margin-top: 20px;
     font-size: 22px;
@@ -29,6 +33,7 @@ export const PromotionCardStyles = styled.div`
     line-height: 1.3;
     color: #333333;
   }
+  
   ${CustomLinkStyles} {
     margin-top: 30px;
   }

@@ -1,27 +1,16 @@
-import {CustomLinkProps} from "./types";
 import {Story} from "@storybook/react";
 import React from "react";
-import {BrowserRouter} from "react-router-dom";
 import CustomLink from "./index";
+import {CustomLinkProps} from "./types";
 
 export default {
-    title: 'Application/Link',
+    title: 'Application/Links/CustomLink',
     component: CustomLink,
 };
 
-const Template: Story<CustomLinkProps> = (props) => <CustomLink to={props.to} label={props.label}/>;
+const Template: Story<CustomLinkProps> = (props) => <CustomLink {...props}/>;
 
 export const Default = Template.bind({});
-Default.decorators = [
-    (Story: Story) => {
-        return (
-            <BrowserRouter
-            >
-                <Story/>
-            </BrowserRouter>
-        );
-    },
-];
 Default.args = {
     label: "Link",
     to: "/link/to"

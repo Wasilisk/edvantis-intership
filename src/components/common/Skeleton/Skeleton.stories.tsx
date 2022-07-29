@@ -4,7 +4,7 @@ import {SkeletonProps} from "./types";
 import Skeleton from "./index";
 
 export default {
-    title: 'Skeleton',
+    title: 'Application/Skeleton',
     component: Skeleton,
     argTypes: {
         variant: {

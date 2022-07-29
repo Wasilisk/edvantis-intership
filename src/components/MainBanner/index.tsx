@@ -11,8 +11,8 @@ const MainBanner = () => {
         mainBannerData && <MainBannerStyles backgroundImage={mainBannerData.image.url}>
             <div className="banner-info">
                 <h1>
-                    <span className="highlight">{mainBannerData.highlight}&nbsp;</span>
-                    {mainBannerData.plain_title}
+                    <span className="highlight">{mainBannerData.title.highlight}&nbsp;</span>
+                    {mainBannerData.title.plain_text}
                 </h1>
                 <p>{mainBannerData.description}</p>
                 <LinkButton

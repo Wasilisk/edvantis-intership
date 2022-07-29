@@ -34,8 +34,10 @@
   },
   "home_page": {
     "main_banner": {
-      "highlight": "Furniture",
-      "plain_title": "for Home & Office",
+      "title": {
+        "highlight": "Furniture",
+        "plain_text": "for Home & Office"
+      },
       "description": "500+ models of cushioned furniture, lamps and accessories.",
       "image": {
         "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e34250c4982e30021320262_optimized_1920"
@@ -44,6 +46,52 @@
         "name": "Best-selling products",
         "to": "#to"
       }
-    }
+    },
+    "promotions": [
+      {
+        "id": 1,
+        "image": {
+          "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31895ca948e70023c284a7_optimized_1140?nowebp",
+          "alt": "Tables & Cabinets"
+        },
+        "title": {
+          "highlight": "15% off",
+          "plain_text": "on Tables & Cabinets"
+        },
+        "link": {
+          "name": "Learn more",
+          "to": "#promotions"
+        }
+      },
+      {
+        "id": 2,
+        "image": {
+          "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31893b01cea70021e7407b_optimized_1395_c1395x930-0x0?nowebp",
+          "alt": "White Collection"
+        },
+        "title": {
+          "plain_text": "All-White Collection in Store"
+        },
+        "link": {
+          "name": "Learn more",
+          "to": "#promotions"
+        }
+      },
+      {
+        "id": 3,
+        "image": {
+          "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e334f7786cda400222d1564_optimized_1396?nowebp",
+          "alt": "Modern Collection"
+        },
+        "title": {
+          "highlight": "NEW!",
+          "plain_text": "Modern Collection by ARM"
+        },
+        "link": {
+          "name": "Learn more",
+          "to": "#promotions"
+        }
+      }
+    ]
   }
 }

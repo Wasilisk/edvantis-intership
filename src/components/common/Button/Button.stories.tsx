@@ -4,7 +4,7 @@ import {ButtonProps} from "./types";
 
 
 export default {
-    title: 'Buttons/CommonButton',
+    title: 'Application/Buttons/CommonButton',
     component: Button,
     argTypes: {
         variant: {

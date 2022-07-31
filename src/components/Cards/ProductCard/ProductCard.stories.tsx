@@ -1,6 +1,5 @@
 import {Story} from "@storybook/react";
 import React from "react";
-import {BrowserRouter} from "react-router-dom";
 import ProductCard from "./index";
 import {ProductCardProps} from "./types";
 
@@ -26,12 +25,11 @@ export default {
     ]
 };
 
-const Template: Story<ProductCardProps> = (props) => <BrowserRouter>
+const Template: Story<ProductCardProps> = (props) =>
     <ProductCard
-        {...mockProductCard}
+        {...props}
         buttonVariant={props.buttonVariant}
-    />
-</BrowserRouter>;
+    />;
 
 export const WithOutlinedButton = Template.bind({});
 WithOutlinedButton.args = {

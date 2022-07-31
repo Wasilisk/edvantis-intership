@@ -13,7 +13,7 @@ export const SectionBannerStyles = styled.div<SectionBannerStylesProps>`
   .banner-info {
     max-width: 1200px;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 24px;
 
     & > h2 {
       font-size: 84px;

@@ -5,7 +5,6 @@ export const ProductCardStyles = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  padding: 0 15px;
   
   .card-text {
     text-align: center;

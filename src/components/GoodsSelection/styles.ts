@@ -4,7 +4,7 @@ import {ProductCardStyles} from "../Cards/ProductCard/styles";
 export const GoodsSelectionStyles = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 90px 15px;
+  padding: 90px 24px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -44,12 +44,12 @@ export const GoodsSelectionStyles = styled.div`
   @media (max-width: 768px) {
     .products-block {
       flex-direction: column;
-      & > ${ProductCardStyles} {
+      ${ProductCardStyles} {
         flex-basis: 100%;
         max-width: 100%;
       }
       
-      & > ${ProductCardStyles}:not(:first-of-type) {
+      ${ProductCardStyles}:not(:first-of-type) {
         margin-top: 50px;
       }
     }

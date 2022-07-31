@@ -1,8 +1,6 @@
-import {StyledTextType} from "./common";
+import {ImageType, StyledTextType} from "./common";
 
 export type SectionBannerType = {
-    banner_texture: {
-        url: string
-    },
+    banner_texture: ImageType,
     title: StyledTextType
 }

@@ -11,6 +11,7 @@ const initialState: HomePageState = {
     section_banner: null,
     goods_selection: null,
     parallax_banner: null,
+    offers: null,
     isLoading: false,
 }
 

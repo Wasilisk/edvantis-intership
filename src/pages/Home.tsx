@@ -8,6 +8,7 @@ import SectionBanner from "../components/Banners/SectionBanner";
 import GoodsSelection from "../components/GoodsSelection";
 import ParallaxBanner from "../components/Banners/ParallaxBanner";
 import {selectHomePage} from "../store/slices/HomePage/selectors";
+import Offers from "../components/Offers";
 
 const Home = () => {
     const dispatch = useAppDispatch();
@@ -28,6 +29,7 @@ const Home = () => {
                     {homepageData.section_banner && <SectionBanner {...homepageData.section_banner}/>}
                     {homepageData.goods_selection && <GoodsSelection {...homepageData.goods_selection}/>}
                     {homepageData.parallax_banner && <ParallaxBanner {...homepageData.parallax_banner}/>}
+                    {homepageData.offers && <Offers offers={homepageData.offers}/>}
                 </>
             }
         </Layout>

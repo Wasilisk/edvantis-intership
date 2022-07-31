@@ -1,6 +1,6 @@
-import {LinkType, LogoType} from "./common";
+import {LinkType, ImageType} from "./common";
 
 export type HeaderType = {
-    logo: LogoType,
+    logo: ImageType,
     navigation: LinkType[]
 }

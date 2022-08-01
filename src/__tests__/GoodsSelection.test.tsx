@@ -1,5 +1,5 @@
 import {render} from "./utils/store-wrapper";
-import GoodsSelection from "../components/GoodsSelection";
+import GoodsSelection from "../components/Sections/GoodsSelection";
 import {mockGoodsSelection} from "./__mock__/mock-goods-selection";
 
 describe('GoodsSelection component', () => {

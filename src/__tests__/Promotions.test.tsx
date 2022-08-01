@@ -1,5 +1,5 @@
 import {render} from "./utils/store-wrapper";
-import Promotions from "../components/Promotions";
+import Promotions from "../components/Sections/Promotions";
 import {mockPromotions} from "./__mock__";
 
 describe('Promotions component', () => {

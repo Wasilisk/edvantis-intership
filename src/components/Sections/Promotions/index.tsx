@@ -1,6 +1,6 @@
 import React from 'react';
 import {PromotionsStyles} from "./styles";
-import PromotionCard from "../Cards/PromotionCard";
+import PromotionCard from "../../Cards/PromotionCard";
 import {PromotionsProps} from "./types";
 
 const Promotions = ({promotions}: PromotionsProps) => {

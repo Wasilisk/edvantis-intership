@@ -1,7 +1,7 @@
 import React from 'react';
 import { OffersStyles } from './styles';
 import {OffersProps} from "./types";
-import OfferCard from "../Cards/OfferCard";
+import OfferCard from "../../Cards/OfferCard";
 
 const Offers = ({offers}: OffersProps) => {
     return (

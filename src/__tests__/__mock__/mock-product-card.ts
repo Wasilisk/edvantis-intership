@@ -7,5 +7,6 @@ export const mockProductCard: ProductType = {
     price: 120.5,
     image: {
         url: "https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
-    }
+    },
+    status: "in stock"
 }

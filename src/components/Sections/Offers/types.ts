@@ -1,4 +1,4 @@
-import {OfferType} from "../../models";
+import {OfferType} from "../../../models";
 
 export type OffersProps = {
     offers: OfferType[]

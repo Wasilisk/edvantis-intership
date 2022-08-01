@@ -9,6 +9,7 @@ export type ButtonProps = {
     size: ButtonSizes,
     label: string,
     hasArrow?: boolean,
+    disabled?: boolean,
     onClick: () => void
 }
 

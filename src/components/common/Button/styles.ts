@@ -76,6 +76,13 @@ export const ButtonStyles = styled.button<ButtonStylesProps>`
     width: 24px;
     margin-left: 5px;
   }
+  
+  :disabled {
+    opacity: .5;
+    pointer-events: none;
+    cursor: not-allowed;
+    user-select: none;
+  }
 
   ${({size}) => buttonSizeStyles(size)}
   ${({variant, hoverVariant}) => buttonVariantStyles(variant, hoverVariant)}

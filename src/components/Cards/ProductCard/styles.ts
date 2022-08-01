@@ -47,5 +47,22 @@ export const ProductCardStyles = styled.div`
       object-fit: contain;
     }
     
+    .out-of-stock {
+      background: #ffddd9;
+      color: #cc3833;
+      position: absolute;
+      height: 32px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 4px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: .05em;
+    }
   }
 `

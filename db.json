@@ -113,7 +113,8 @@
           "price": 120,
           "image": {
             "url": "https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
-          }
+          },
+          "status": "in stock"
         },
         {
           "id": 2,
@@ -122,7 +123,8 @@
           "price": 90,
           "image": {
             "url": "https://e-c.storage.googleapis.com/res/5f731cb4e7179b1a6552ce5f/480"
-          }
+          },
+          "status": "in stock"
         },
         {
           "id": 3,
@@ -131,7 +133,8 @@
           "price": 310,
           "image": {
             "url": "https://e-c.storage.googleapis.com/res/5f731d7be7179b3e8352ce65/480"
-          }
+          },
+          "status": "in stock"
         }
       ]
     },
@@ -177,6 +180,151 @@
           "to": "/link"
         }
       }
-    ]
+    ],
+    "tabs_section": {
+      "id": "our-fave-finds",
+      "title": "Our Fave Finds",
+      "description": "The best designer products from the 2020 collections.",
+      "tabs": [
+        {
+          "id": 1,
+          "label": "Armchairs",
+          "items": [
+            {
+              "id": 4,
+              "search_name": "fusion-armchair-lexx",
+              "name": "Fusion armchair, LEXX",
+              "price": 320,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f73194a5a5a2681072728fd/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 5,
+              "search_name": "aurora-armchair-mds",
+              "name": "Aurora armchair, MDS",
+              "price": 210,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731969f976ca694f91509d/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 6,
+              "search_name": "cloud-armchair-dix",
+              "name": "Cloud armchair, DIX",
+              "price": 150,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f7319a4e7179bd92352ce3a/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 7,
+              "search_name": "jeanine-armchair-kuko",
+              "name": "Jeanine armchair, KUKO",
+              "price": 210,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f7319bf5a5a2636662728ff/480"
+              },
+              "status": "out of stock"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "label": "Lamps",
+          "items": [
+            {
+              "id": 8,
+              "search_name": "3-piece-minimal-arm",
+              "name": "3-piece Minimal, ARM",
+              "price": 110,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f7319e4f976cad2bd9150a1/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 9,
+              "search_name": "red-drops-kuko",
+              "name": "Red Drops, KUKO",
+              "price": 210,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f7319fa5a5a268c83272901/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 10,
+              "search_name": "delar-uni-studio",
+              "name": "Delar, Uni Studio",
+              "price": 350,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731a1ae7179b07c152ce45/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 11,
+              "search_name": "bubbles-udion",
+              "name": "Bubbles, Udion",
+              "price": 410,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731a31e7179b01e052ce49/480"
+              },
+              "status": "in stock"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "label": "Tables",
+          "items": [
+            {
+              "id": 12,
+              "search_name": "upi-table-landstrom",
+              "name": "Upi table, Landstrom",
+              "price": 90,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731a5a5a5a26ac4c272905/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 13,
+              "search_name": "monica-table-orro",
+              "name": "Monica table, Orro",
+              "price": 110,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731a70b8b5b03ac625bfb1/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 14,
+              "search_name": "snitch-cabinet-arm",
+              "name": "Snitch cabinet, ARM",
+              "price": 100,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731a92e7179b36f652ce51/480"
+              },
+              "status": "in stock"
+            },
+            {
+              "id": 15,
+              "search_name": "hugo-table-kuko-studio",
+              "name": "Hugo table, KUKO studio",
+              "price": 99,
+              "image": {
+                "url": "https://e-c.storage.googleapis.com/res/5f731ab65a5a26b660272909/480"
+              },
+              "status": "in stock"
+            }
+          ]
+        }
+      ]
+    }
   }
 }

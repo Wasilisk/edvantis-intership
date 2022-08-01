@@ -3,12 +3,13 @@ import Layout from "../components/Layout";
 import MainBanner from "../components/Banners/MainBanner";
 import {useAppDispatch, useAppSelector} from "../hooks";
 import {getHomePageData} from "../store/slices/HomePage";
-import Promotions from "../components/Promotions";
+import Promotions from "../components/Sections/Promotions";
 import SectionBanner from "../components/Banners/SectionBanner";
-import GoodsSelection from "../components/GoodsSelection";
+import GoodsSelection from "../components/Sections/GoodsSelection";
 import ParallaxBanner from "../components/Banners/ParallaxBanner";
 import {selectHomePage} from "../store/slices/HomePage/selectors";
-import Offers from "../components/Offers";
+import Offers from "../components/Sections/Offers";
+import TabsSection from "../components/Sections/TabsSection";
 
 const Home = () => {
     const dispatch = useAppDispatch();
@@ -30,6 +31,7 @@ const Home = () => {
                     {homepageData.goods_selection && <GoodsSelection {...homepageData.goods_selection}/>}
                     {homepageData.parallax_banner && <ParallaxBanner {...homepageData.parallax_banner}/>}
                     {homepageData.offers && <Offers offers={homepageData.offers}/>}
+                    {homepageData.tabs_section && <TabsSection {...homepageData.tabs_section}/>}
                 </>
             }
         </Layout>

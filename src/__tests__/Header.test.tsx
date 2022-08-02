@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 import {mockHeader} from "./__mock__";
 
 describe('Header component', () => {

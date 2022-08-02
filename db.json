@@ -30,6 +30,44 @@
           "to": "#contact_us"
         }
       ]
+    },
+    "footer": {
+      "logo": {
+        "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e332770198fdb0021a86911_optimized_266?nowebp"
+      },
+      "navigation": [
+        {
+          "name": "Promotions",
+          "to": "#promotions"
+        },
+        {
+          "name": "Best-selling",
+          "to": "#best_selling"
+        },
+        {
+          "name": "2020 Collection",
+          "to": "#collection"
+        },
+        {
+          "name": "Testimonials",
+          "to": "#testimonial"
+        },
+        {
+          "name": "Blog",
+          "to": "#blog"
+        },
+        {
+          "name": "Contact us",
+          "to": "#contact_us"
+        }
+      ],
+      "company_description": "We sell designer furniture, lamps & decor across the USA. We offer the best collections by American and European designers.",
+      "social_links": {
+        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/",
+        "youtube": "https://www.youtube.com/"
+      },
+      "created_by": "Vasyl Petryna"
     }
   },
   "home_page": {

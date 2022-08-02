@@ -1,4 +1,4 @@
-import {PromotionType} from "../../models";
+import {PromotionType} from "../../../models";
 
 export type PromotionsProps = {
     promotions: PromotionType[]

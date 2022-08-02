@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {OfferCardStyles} from "../Cards/OfferCard/styles";
+import {OfferCardStyles} from "../../Cards/OfferCard/styles";
 
 export const OffersStyles = styled.div`
   max-width: 1200px;

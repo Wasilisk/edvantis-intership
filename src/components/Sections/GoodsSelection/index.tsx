@@ -1,7 +1,7 @@
 import React from 'react';
 import { GoodsSelectionStyles } from './styles';
-import ProductCard from "../Cards/ProductCard";
-import {GoodsSelectionType} from "../../models";
+import ProductCard from "../../Cards/ProductCard";
+import {GoodsSelectionType} from "../../../models";
 
 const GoodsSelection = ({title, description, products}: GoodsSelectionType) => {
     return (

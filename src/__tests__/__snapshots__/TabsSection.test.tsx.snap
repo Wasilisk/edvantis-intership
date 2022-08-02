@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabsSection component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf ePRWOu"
+  >
+    <div
+      class="text-info"
+    >
+      <h4
+        class="title"
+      >
+        Title
+      </h4>
+      <p
+        class="description"
+      >
+        Description
+      </p>
+    </div>
+    <div
+      class="sc-bczRLJ gnmHVj"
+    >
+      <div
+        class="tabs"
+        data-testid="tabs"
+      >
+        <div
+          class="sc-hKMtZM bIqTAQ"
+          value="1"
+        >
+          <span>
+            Tab 1
+          </span>
+        </div>
+        <div
+          class="sc-hKMtZM fMPRoN"
+          value="2"
+        >
+          <span>
+            Tab 2
+          </span>
+        </div>
+        <div
+          class="sc-hKMtZM fMPRoN"
+          value="3"
+        >
+          <span>
+            Tab 3
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="tab-panel"
+      role="tabpanel"
+    >
+      <div
+        class="sc-gsnTZi isgJGv"
+      >
+        <a
+          class="card-image"
+          href="/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-eCYdqJ hnhvuX"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-gsnTZi isgJGv"
+      >
+        <a
+          class="card-image"
+          href="/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-eCYdqJ hnhvuX"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-gsnTZi isgJGv"
+      >
+        <a
+          class="card-image"
+          href="/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-eCYdqJ hnhvuX"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-gsnTZi isgJGv"
+      >
+        <a
+          class="card-image"
+          href="/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-eCYdqJ hnhvuX"
+        >
+          Order Now
+        </button>
+      </div>
+    </div>
+    <div
+      class="tab-panel"
+      hidden=""
+      role="tabpanel"
+    />
+    <div
+      class="tab-panel"
+      hidden=""
+      role="tabpanel"
+    />
+  </div>
+</DocumentFragment>
+`;

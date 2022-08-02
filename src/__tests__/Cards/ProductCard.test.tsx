@@ -21,4 +21,27 @@ describe('ProductCard component', () => {
 
         expect(asFragment()).toMatchSnapshot();
     })
+    it('should display out of stock block', () => {
+        const {getByText, asFragment, getByAltText} = render(<ProductCard
+            {...mockProductCard}
+            status="out of stock"
+            buttonVariant="filled"
+        />);
+
+        const cardImage = getByAltText(mockProductCard.name);
+        expect(cardImage).toHaveAttribute('src', mockProductCard.image.url);
+        fireEvent.click(cardImage);
+        expect(mockHistory.location.pathname).toBe(`/${mockProductCard.search_name}`);
+
+        const productName = getByText(mockProductCard.name);
+        expect(productName).toBeDefined();
+
+        const productPrice = getByText(`${mockProductCard.price.toFixed(2)}USD`);
+        expect(productPrice).toBeDefined();
+
+        const outOfStock = getByText('Out of stock');
+        expect(outOfStock).toBeDefined();
+
+        expect(asFragment()).toMatchSnapshot();
+    })
 })

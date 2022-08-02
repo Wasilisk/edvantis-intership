@@ -70,4 +70,20 @@ describe('Button component', () => {
         expect(onClick).toHaveBeenCalled();
         expect(asFragment()).toMatchSnapshot();
     })
+    it('should be disabled', () => {
+        const {container, asFragment} = render(<Button
+            variant="outlined"
+            size="medium"
+            label="Click me"
+            fullWidth
+            hasArrow
+            onClick={onClick}
+            disabled
+        />);
+
+        const button = container.firstChild
+        fireEvent.click(button!);
+        expect(onClick).not.toHaveBeenCalled();
+        expect(asFragment()).toMatchSnapshot();
+    })
 })

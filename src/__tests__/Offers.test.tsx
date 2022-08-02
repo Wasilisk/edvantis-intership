@@ -1,5 +1,5 @@
 import {render} from "./utils/store-wrapper";
-import Offers from "../components/Offers";
+import Offers from "../components/Sections/Offers";
 import {mockOffers} from "./__mock__/mock-offers";
 
 describe('Offers component', () => {

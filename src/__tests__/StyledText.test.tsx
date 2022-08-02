@@ -1,4 +1,4 @@
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 import StyledText from "../components/common/StyledText";
 import {mockStyledText} from "./__mock__/mock-styled-text";
 

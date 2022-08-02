@@ -1,12 +1,12 @@
-import {render} from "./utils/store-wrapper";
-import {mockBanner} from "./__mock__";
+import MainBanner from "../../components/Banners/MainBanner";
+import {render} from "../__utils__/store-wrapper";
+import {mockBanner} from "../__mock__";
 import {fireEvent} from "@testing-library/react";
-import ParallaxBanner from "../components/Banners/ParallaxBanner";
-import {mockHistory} from "./utils/history-wrapper";
+import {mockHistory} from "../__utils__/history-wrapper";
 
-describe('ParallaxBanner component', () => {
+describe('MainBanner component', () => {
     it('should render component', () => {
-        const {getByText, asFragment, getByTestId} = render(<ParallaxBanner {...mockBanner}/>);
+        const {getByText, asFragment, getByTestId} = render( <MainBanner {...mockBanner}/>);
 
         expect(getByTestId('banner')).toHaveStyle(`background-image: url(${mockBanner.image.url})`);
 

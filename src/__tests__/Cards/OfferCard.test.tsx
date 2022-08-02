@@ -1,8 +1,8 @@
-import {render} from "../utils/store-wrapper";
+import {render} from "../__utils__/store-wrapper";
 import {mockOffers} from "../__mock__/mock-offers";
 import OfferCard from "../../components/Cards/OfferCard";
 import {fireEvent} from "@testing-library/react";
-import {mockHistory} from "../utils/history-wrapper";
+import {mockHistory} from "../__utils__/history-wrapper";
 
 describe('OfferCard component', () => {
     it('should render component', () => {

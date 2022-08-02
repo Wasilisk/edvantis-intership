@@ -1,4 +1,4 @@
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 import GoodsSelection from "../components/Sections/GoodsSelection";
 import {mockGoodsSelection} from "./__mock__/mock-goods-selection";
 

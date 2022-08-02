@@ -1,4 +1,4 @@
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 import Promotions from "../components/Sections/Promotions";
 import {mockPromotions} from "./__mock__";
 

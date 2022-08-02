@@ -1,6 +1,6 @@
 import Navigation from "../components/Header/Navigation";
 import {mockLinks} from "./__mock__";
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 
 describe('Navigation component', () => {
     it('should render navigation links', () => {

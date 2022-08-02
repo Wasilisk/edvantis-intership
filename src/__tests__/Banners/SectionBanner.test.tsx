@@ -1,6 +1,6 @@
-import {render} from "./utils/store-wrapper";
-import {mockSectionBanner} from "./__mock__";
-import SectionBanner from "../components/Banners/SectionBanner";
+import {render} from "../__utils__/store-wrapper";
+import {mockSectionBanner} from "../__mock__";
+import SectionBanner from "../../components/Banners/SectionBanner";
 
 describe('SectionBanner component', () => {
     it('should render component', () => {

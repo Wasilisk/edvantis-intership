@@ -1,4 +1,4 @@
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 import Offers from "../components/Sections/Offers";
 import {mockOffers} from "./__mock__/mock-offers";
 

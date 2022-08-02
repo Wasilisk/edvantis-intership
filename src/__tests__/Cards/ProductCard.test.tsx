@@ -1,8 +1,8 @@
-import {render} from "../utils/store-wrapper";
+import {render} from "../__utils__/store-wrapper";
 import {fireEvent} from "@testing-library/react";
 import ProductCard from "../../components/Cards/ProductCard";
 import {mockProductCard} from "../__mock__/mock-product-card";
-import {mockHistory} from "../utils/history-wrapper";
+import {mockHistory} from "../__utils__/history-wrapper";
 
 describe('ProductCard component', () => {
     it('should render component', () => {

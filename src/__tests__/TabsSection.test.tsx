@@ -1,4 +1,4 @@
-import {render} from "./utils/store-wrapper";
+import {render} from "./__utils__/store-wrapper";
 import TabsSection from "../components/Sections/TabsSection";
 import {mockTabsSection} from "./__mock__/mock-tabs-section";
 import {fireEvent} from "@testing-library/react";

@@ -1,11 +1,8 @@
-import {LinkType, StyledTextType} from "./common";
+import {ImageType, LinkType, StyledTextType} from "./common";
 
 export type PromotionType = {
     id: number,
-    image: {
-        url: string,
-        alt: string
-    },
+    image: ImageType & {alt: string },
     title: StyledTextType,
     link: LinkType
 }

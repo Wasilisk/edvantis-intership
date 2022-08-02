@@ -4,7 +4,7 @@ import {CustomLinkStyles} from "../../common/CustomLink/styles";
 export const PromotionCardStyles = styled.div`
   flex-basis: 33%;
   max-width: 33%;
-  padding: 0 15px;
+  padding: 0 24px;
   box-sizing: border-box;
 
   

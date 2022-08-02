@@ -149,6 +149,34 @@
         "name": "OUR FAVES",
         "to": "#to"
       }
-    }
+    },
+    "offers": [
+      {
+        "id": 1,
+        "caption": "Bring brightness to the interior",
+        "title": "Get 15% off on colorful 2020 furniture collections.",
+        "description": "Set bright accents in your interior. \nShop the collections of selected designers.",
+        "image": {
+          "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31af4a633eb20022a30b7e_optimized.webp"
+        },
+        "link": {
+          "name": "Learn more",
+          "to": "/link"
+        }
+      },
+      {
+        "id": 2,
+        "caption": "Black & white are always in trend ",
+        "title": "Only black and white furniture collections. Nothing extra.",
+        "description": "Top models of furniture & lamps.\nFind your inspiration in our B&W collections.",
+        "image": {
+          "url": "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e31b05f633eb20022a30d29_optimized.webp"
+        },
+        "link": {
+          "name": "Learn more",
+          "to": "/link"
+        }
+      }
+    ]
   }
 }

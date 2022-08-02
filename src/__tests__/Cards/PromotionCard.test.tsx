@@ -1,8 +1,8 @@
-import {render} from "./utils/store-wrapper";
+import {render} from "../utils/store-wrapper";
 import {fireEvent} from "@testing-library/react";
-import PromotionCard from "../components/Cards/PromotionCard";
-import {mockPromotions} from "./__mock__";
-import {mockHistory} from "./utils/history-wrapper";
+import PromotionCard from "../../components/Cards/PromotionCard";
+import {mockPromotions} from "../__mock__";
+import {mockHistory} from "../utils/history-wrapper";
 
 describe('PromotionCard component', () => {
     it('should render component', () => {

@@ -7,7 +7,7 @@ export const MainBannerStyles = styled.div<MainBannerStylesProps>`
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 24px;
   box-sizing: border-box;
   display: flex;
   align-items: center;

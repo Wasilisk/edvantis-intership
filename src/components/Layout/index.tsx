@@ -3,11 +3,13 @@ import {LayoutProps} from "./types";
 import Header from "../Header";
 import {useAppDispatch, useAppSelector} from "../../hooks";
 import {getAppLayout} from "../../store/slices/AppLayout";
-import {selectHeader} from "../../store/slices/AppLayout/selectors";
+import {selectFooter, selectHeader} from "../../store/slices/AppLayout/selectors";
+import Footer from "../Footer";
 
 const Layout = ({children}: LayoutProps) => {
     const dispatch = useAppDispatch();
     const headerInfo = useAppSelector(selectHeader);
+    const footerInfo = useAppSelector(selectFooter);
 
     useEffect(() => {
         dispatch(getAppLayout());
@@ -19,6 +21,7 @@ const Layout = ({children}: LayoutProps) => {
         <>
             {headerInfo && <Header {...headerInfo}/>}
             {children}
+            {footerInfo && <Footer {...footerInfo}/>}
         </>
     );
 };

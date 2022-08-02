@@ -1,6 +1,7 @@
 import {HeaderType} from "./header.type";
+import {FooterType} from "./footer.type";
 
 export type LayoutType = {
     header: HeaderType,
-    footer: any //ToDo Add footer type
+    footer: FooterType
 }

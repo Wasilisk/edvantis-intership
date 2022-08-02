@@ -1,7 +1,7 @@
-import {HeaderType} from "../../../models";
+import {FooterType, HeaderType} from "../../../models";
 
 export type AppLayoutState = {
     header: Nullable<HeaderType>,
-    footer: any //ToDo Add footer type
+    footer: Nullable<FooterType>,
     isLoading: boolean
 }

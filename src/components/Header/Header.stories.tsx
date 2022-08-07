@@ -36,7 +36,7 @@ const mockHeader: HeaderType = {
 };
 
 export default {
-    title: 'Application/Header',
+    title: 'Application/Layout/Header',
     component: Header,
 } as ComponentMeta<typeof Header>;
 

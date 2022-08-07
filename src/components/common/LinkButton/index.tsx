@@ -2,7 +2,7 @@ import {ButtonStyles} from "../Button/styles";
 import React from "react";
 import {LinkButtonProps} from "./types";
 import { LinkButtonStyles } from "./styles";
-import ArrowIcon from "../../../assets/icons/ArrowIcon";
+import {ReactComponent as ArrowIcon} from "../../../assets/icons/arrow.svg";
 
 const LinkButton = ({
                         to,

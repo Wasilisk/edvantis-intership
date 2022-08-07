@@ -1,12 +1,12 @@
 import React from 'react';
 import {CustomLinkStyles} from "./styles";
 import {CustomLinkProps} from "./types";
-import ButtonArrow from "../../../assets/icons/ArrowIcon";
+import {ReactComponent as ArrowIcon} from "../../../assets/icons/arrow.svg";
 
 const CustomLink = ({to, label}: CustomLinkProps) => {
     return (
         <CustomLinkStyles to={to}>
-            {label} <ButtonArrow/>
+            {label} <ArrowIcon/>
         </CustomLinkStyles>
     );
 };

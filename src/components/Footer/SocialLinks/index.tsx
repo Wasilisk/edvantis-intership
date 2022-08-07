@@ -1,9 +1,10 @@
 import React from 'react';
 import {SocialLinksProps} from "./types";
-import FacebookIcon from "../../../assets/icons/FacebookIcon";
-import InstagramIcon from "../../../assets/icons/InstagramIcon";
-import YoutubeIcon from "../../../assets/icons/YoutubeIcon";
+import {ReactComponent as FacebookIcon} from "../../../assets/icons/social-media/facebook.svg"
+import {ReactComponent as InstagramIcon} from "../../../assets/icons/social-media/instagram.svg"
+import {ReactComponent as YoutubeIcon} from "../../../assets/icons/social-media/youtube.svg"
 import {SocialLinksStyles} from "./styles";
+
 
 const SocialLinks = ({social_links}: SocialLinksProps) => {
     return (

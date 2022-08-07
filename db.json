@@ -364,5 +364,57 @@
         }
       ]
     }
-  }
+  },
+  "departments": [
+    "SOFA - 40 Warren St, Boston",
+    "SOFA - 111 Boulston St, Brookline",
+    "SOFA - 815 Hutchinson River Pkwy, The Bronx",
+    "SOFA - 405 Lexington Ave, New York"
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "firstname": "Judy",
+      "surname": "Peterson",
+      "email": "judy321@gmail.com",
+      "phone_number": "3803243243",
+      "department": "SOFA - 40 Warren St, Boston",
+      "rating": 4.5,
+      "comment": "Next-day delivery surprised me a lot! I thought I would have to wait for weeks! Thank you for the quick processing of my order!",
+      "created_at": 1628350328000
+    },
+    {
+      "id": 2,
+      "firstname": "Ivan",
+      "surname": "Maslov",
+      "email": "ivanivan@gmail.com",
+      "phone_number": "3801432243",
+      "department": "SOFA - 405 Lexington Ave, New York",
+      "rating": 2.5,
+      "comment": "Shit !",
+      "created_at": 1643450328000
+    },
+    {
+      "id": 3,
+      "firstname": "Jim",
+      "surname": "Mockeen",
+      "email": "jimjim@gmail.com",
+      "phone_number": "3801432123",
+      "department": "SOFA - 405 Lexington Ave, New York",
+      "rating": 4,
+      "comment": "I not only found the perfect sofa at a reasonable price but also stylish lamps which were exactly what I wanted. Thank you, SOFA!",
+      "created_at": 1646667128000
+    },
+    {
+      "id": 4,
+      "firstname": "Karen",
+      "surname": "Morning",
+      "email": "morning@gmail.com",
+      "phone_number": "3811132123",
+      "department": "SOFA - 111 Boulston St, Brookline",
+      "rating": 4.5,
+      "comment": "My order arrived really quickly and I was amazed by the quality - PERFECT. I would and have recommended SOFA to others.",
+      "created_at": 1651591928000
+    }
+  ]
 }

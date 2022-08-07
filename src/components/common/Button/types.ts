@@ -1,6 +1,7 @@
 export type ButtonVariants = "filled" | "outlined";
 export type ButtonSizes = "small" | "medium" | "large";
 export type ButtonHoverVariants = "light" | "dark";
+export type ButtonType = "button" | "submit" | "reset";
 
 export type ButtonProps = {
     variant: ButtonVariants,
@@ -10,7 +11,8 @@ export type ButtonProps = {
     label: string,
     hasArrow?: boolean,
     disabled?: boolean,
-    onClick: () => void
+    onClick?: () => void,
+    type?: ButtonType
 }
 
 

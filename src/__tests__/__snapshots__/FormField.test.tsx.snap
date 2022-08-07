@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ jYIGRO"
+  >
+    <div
+      class="label"
+    >
+      <span
+        class="label-text"
+      >
+        field
+      </span>
+    </div>
+    <p>
+      Children
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormField component should show the symbol if field is required  1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ jYIGRO"
+  >
+    <div
+      class="label"
+    >
+      <span
+        class="label-text"
+      >
+        field
+      </span>
+      <span
+        class="label-required"
+      >
+        *
+      </span>
+    </div>
+    <p>
+      Children
+    </p>
+  </div>
+</DocumentFragment>
+`;

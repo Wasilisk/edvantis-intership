@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackSection component should render header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsnTZi iFuclJ"
+  >
+    <div
+      class="wrapper"
+    >
+      <h4
+        class="title"
+      >
+        What Our Customers Say
+      </h4>
+      <p
+        class="description"
+      >
+        We love your feedback on our products!
+      </p>
+      <div
+        class="feedback-cards"
+      >
+        <div
+          class="sc-bczRLJ iKlFUT"
+          data-testid="feedback-card"
+        >
+          <p
+            class="username"
+          >
+            Jim Mockeen
+          </p>
+          <p
+            class="department"
+          >
+            About SOFA - 40 Warren St, Boston
+          </p>
+          <div
+            class="rating"
+          >
+            <div
+              class="sc-dkzDqf iYDomr"
+            >
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    empty-star.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <span>
+              8/10
+            </span>
+          </div>
+          <p
+            class="comment"
+          >
+            I not only found the perfect sofa at a reasonable price but also stylish lamps which were exactly what I wanted. Thank you, SOFA!
+          </p>
+          <p>
+            August 07, 2022
+          </p>
+        </div>
+        <div
+          class="sc-bczRLJ iKlFUT"
+          data-testid="feedback-card"
+        >
+          <p
+            class="username"
+          >
+            Jim Mockeen
+          </p>
+          <p
+            class="department"
+          >
+            About SOFA - 40 Warren St, Boston
+          </p>
+          <div
+            class="rating"
+          >
+            <div
+              class="sc-dkzDqf iYDomr"
+            >
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    empty-star.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <span>
+              8/10
+            </span>
+          </div>
+          <p
+            class="comment"
+          >
+            I not only found the perfect sofa at a reasonable price but also stylish lamps which were exactly what I wanted. Thank you, SOFA!
+          </p>
+          <p>
+            August 07, 2022
+          </p>
+        </div>
+        <div
+          class="sc-bczRLJ iKlFUT"
+          data-testid="feedback-card"
+        >
+          <p
+            class="username"
+          >
+            Jim Mockeen
+          </p>
+          <p
+            class="department"
+          >
+            About SOFA - 40 Warren St, Boston
+          </p>
+          <div
+            class="rating"
+          >
+            <div
+              class="sc-dkzDqf iYDomr"
+            >
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-hKMtZM iikMon"
+              >
+                <div
+                  class="filled"
+                >
+                  <svg>
+                    filled-star.svg
+                  </svg>
+                </div>
+                <div
+                  class="empty"
+                >
+                  <svg>
+                    empty-star.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <span>
+              8/10
+            </span>
+          </div>
+          <p
+            class="comment"
+          >
+            I not only found the perfect sofa at a reasonable price but also stylish lamps which were exactly what I wanted. Thank you, SOFA!
+          </p>
+          <p>
+            August 07, 2022
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -10,13 +10,18 @@ import ParallaxBanner from "../components/Banners/ParallaxBanner";
 import {selectHomePage} from "../store/slices/HomePage/selectors";
 import Offers from "../components/Sections/Offers";
 import TabsSection from "../components/Sections/TabsSection";
+import {selectFeedbacks} from "../store/slices/Feedbacks/selectors";
+import {getFeedbacks} from "../store/slices/Feedbacks";
+import FeedbackSection from "../components/Sections/FeedbackSection";
 
 const Home = () => {
     const dispatch = useAppDispatch();
     const homepageData = useAppSelector(selectHomePage);
+    const feedbacks = useAppSelector(selectFeedbacks);
 
     useEffect(() => {
         dispatch(getHomePageData());
+        dispatch(getFeedbacks());
 
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
@@ -32,6 +37,7 @@ const Home = () => {
                     {homepageData.parallax_banner && <ParallaxBanner {...homepageData.parallax_banner}/>}
                     {homepageData.offers && <Offers offers={homepageData.offers}/>}
                     {homepageData.tabs_section && <TabsSection {...homepageData.tabs_section}/>}
+                    {feedbacks && <FeedbackSection feedbacks={feedbacks}/>}
                 </>
             }
         </Layout>

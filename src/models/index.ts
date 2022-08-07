@@ -9,3 +9,4 @@ export * from './product.type';
 export * from './offer.test';
 export * from './tabs-section.type';
 export * from './footer.type';
+export * from './feedback.type';

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component should render component 1`] = `
+<DocumentFragment>
+  <select
+    class="sc-bczRLJ jBlMmy"
+  >
+    <option
+      value="1"
+    >
+      option
+    </option>
+  </select>
+</DocumentFragment>
+`;
+
+exports[`Select component should render component without options 1`] = `
+<DocumentFragment>
+  <select
+    class="sc-bczRLJ jBlMmy"
+  >
+    <option
+      value=""
+    >
+      No data
+    </option>
+  </select>
+</DocumentFragment>
+`;
+
+exports[`Select component should show none value option 1`] = `
+<DocumentFragment>
+  <select
+    class="sc-bczRLJ jBlMmy"
+  >
+    <option
+      value=""
+    >
+      None
+    </option>
+    <option
+      value="1"
+    >
+      option
+    </option>
+  </select>
+</DocumentFragment>
+`;

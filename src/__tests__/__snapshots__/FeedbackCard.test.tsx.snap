@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackCard component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ iKlFUT"
+  >
+    <p
+      class="username"
+    >
+      Jim Mockeen
+    </p>
+    <p
+      class="department"
+    >
+      About SOFA - 40 Warren St, Boston
+    </p>
+    <div
+      class="rating"
+    >
+      <div
+        class="sc-gsnTZi eglLIc"
+      >
+        <div
+          class="sc-dkzDqf heBdZI"
+        >
+          <div
+            class="filled"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+          <div
+            class="empty"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-dkzDqf heBdZI"
+        >
+          <div
+            class="filled"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+          <div
+            class="empty"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-dkzDqf heBdZI"
+        >
+          <div
+            class="filled"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+          <div
+            class="empty"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-dkzDqf heBdZI"
+        >
+          <div
+            class="filled"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+          <div
+            class="empty"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-dkzDqf heBdZI"
+        >
+          <div
+            class="filled"
+          >
+            <svg>
+              filled-star.svg
+            </svg>
+          </div>
+          <div
+            class="empty"
+          >
+            <svg>
+              empty-star.svg
+            </svg>
+          </div>
+        </div>
+      </div>
+      <span>
+        8/10
+      </span>
+    </div>
+    <p
+      class="comment"
+    >
+      I not only found the perfect sofa at a reasonable price but also stylish lamps which were exactly what I wanted. Thank you, SOFA!
+    </p>
+    <p>
+      August 07, 2022
+    </p>
+  </div>
+</DocumentFragment>
+`;

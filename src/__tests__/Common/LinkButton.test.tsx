@@ -1,7 +1,7 @@
 import {fireEvent} from "@testing-library/react";
-import LinkButton from "../components/common/LinkButton";
-import {mockHistory} from "./__utils__/history-wrapper";
-import { render } from "./__utils__/store-wrapper";
+import LinkButton from "../../components/common/LinkButton";
+import {mockHistory} from "../__utils__/history-wrapper";
+import { render } from "../__utils__/store-wrapper";
 
 describe('LinkButton component', () => {
     it('should render outlined button', () => {

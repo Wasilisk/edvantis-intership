@@ -1,5 +1,5 @@
 import {fireEvent, render} from "@testing-library/react";
-import Button from "../components/common/Button";
+import Button from "../../components/common/Button";
 
 describe('Button component', () => {
     const onClick = jest.fn();

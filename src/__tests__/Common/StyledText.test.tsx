@@ -1,6 +1,6 @@
-import {render} from "./__utils__/store-wrapper";
-import StyledText from "../components/common/StyledText";
-import {mockStyledText} from "./__mock__/mock-styled-text";
+import {render} from "../__utils__/store-wrapper";
+import StyledText from "../../components/common/StyledText";
+import {mockStyledText} from "../__mock__/mock-styled-text";
 
 describe('StyledText component', () => {
     it('should render component', () => {

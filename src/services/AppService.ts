@@ -5,10 +5,14 @@ axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 
 export class AppService {
     static async getAppLayout(): Promise<AxiosResponse<LayoutType>> {
-        return axios.get('layout');
+        return await axios.get('layout');
     }
 
     static async getHomePageData(): Promise<AxiosResponse<HomePageType>> {
-        return axios.get('home_page');
+        return await axios.get('home_page');
+    }
+
+    static async getDepartments(): Promise<AxiosResponse<string[]>> {
+        return await axios.get('departments');
     }
 }

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StarRating component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ kyVMcj"
+  >
+    <div
+      class="sc-gsnTZi hdiuqv"
+    >
+      <div
+        class="filled"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+      <div
+        class="empty"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi hdiuqv"
+    >
+      <div
+        class="filled"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+      <div
+        class="empty"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi hdiuqv"
+    >
+      <div
+        class="filled"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+      <div
+        class="empty"
+      >
+        <svg>
+          empty-star.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi hdiuqv"
+    >
+      <div
+        class="filled"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+      <div
+        class="empty"
+      >
+        <svg>
+          empty-star.svg
+        </svg>
+      </div>
+    </div>
+    <div
+      class="sc-gsnTZi hdiuqv"
+    >
+      <div
+        class="filled"
+      >
+        <svg>
+          filled-star.svg
+        </svg>
+      </div>
+      <div
+        class="empty"
+      >
+        <svg>
+          empty-star.svg
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

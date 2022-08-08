@@ -18,16 +18,8 @@
           "to": "#collection"
         },
         {
-          "name": "Testimonials",
-          "to": "#testimonial"
-        },
-        {
-          "name": "Blog",
-          "to": "#blog"
-        },
-        {
-          "name": "Contact us",
-          "to": "#contact_us"
+          "name": "Feedbacks",
+          "to": "#feedbacks"
         }
       ]
     },
@@ -49,16 +41,8 @@
           "to": "#collection"
         },
         {
-          "name": "Testimonials",
-          "to": "#testimonial"
-        },
-        {
-          "name": "Blog",
-          "to": "#blog"
-        },
-        {
-          "name": "Contact us",
-          "to": "#contact_us"
+          "name": "Feedbacks",
+          "to": "#feedbacks"
         }
       ],
       "company_description": "We sell designer furniture, lamps & decor across the USA. We offer the best collections by American and European designers.",
@@ -82,7 +66,7 @@
       },
       "link": {
         "name": "Best-selling products",
-        "to": "#to"
+        "to": "#best_selling"
       }
     },
     "promotions": [
@@ -141,6 +125,7 @@
       }
     },
     "goods_selection": {
+      "id_name": "#best_selling",
       "title": "Best-selling Products",
       "description": "Our customers' faves of the week",
       "products": [
@@ -188,7 +173,7 @@
       },
       "link": {
         "name": "OUR FAVES",
-        "to": "#to"
+        "to": "#favourites"
       }
     },
     "offers": [
@@ -202,7 +187,7 @@
         },
         "link": {
           "name": "Learn more",
-          "to": "/link"
+          "to": "#favourites"
         }
       },
       {
@@ -215,7 +200,7 @@
         },
         "link": {
           "name": "Learn more",
-          "to": "/link"
+          "to": "#favourites"
         }
       }
     ],
@@ -236,7 +221,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f73194a5a5a2681072728fd/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "It is an incredibly stylish armchair in a trendy mustard color. In it, you can recline comfortably and read a book or work on a laptop.\n\nDimensions and materials:\n25\" x 32\"\nFaux suede, steel"
             },
             {
               "id": 5,
@@ -246,7 +232,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731969f976ca694f91509d/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "This wide-backed trapezoidal chair will welcome you after or during your hard day and help you relax. It will fit into any interior and is very easy to clean.\n\nDimensions and materials:\n28\" x 37\"\nFaux suede, wood"
             },
             {
               "id": 6,
@@ -256,7 +243,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f7319a4e7179bd92352ce3a/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "Simple design and vibrant turquoise color are the hallmarks of this armchair. It is versatile: you can make this armchair a striking accent in your interior or create an island of tranquility in your office.\n\nDimensions and materials:\n28\" x 35\"\nFaux suede, wood"
             },
             {
               "id": 7,
@@ -266,7 +254,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f7319bf5a5a2636662728ff/480"
               },
-              "status": "out of stock"
+              "status": "out of stock",
+              "description": "This is the very armchair in which you want to drown after a hard day. Wide handrails and padded back allow you to take any position in this armchair.\n\nDimensions and materials:\n28\" x 35\"\nTextile, wood"
             }
           ]
         },
@@ -282,7 +271,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f7319e4f976cad2bd9150a1/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "This 3-piece white lamp is a perfect fit for a kitchen or living room. It is a versatile lamp that looks good in any interior.\n\nMaterial: painted steel."
             },
             {
               "id": 9,
@@ -292,7 +282,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f7319fa5a5a268c83272901/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "Do you want to fill the room with muted red light? This lamp from one of the best design studios is perfect for you then. The pendant lamp consists of two glass lamps on cords, the height is adjustable.\n\nMaterials: steel and glass."
             },
             {
               "id": 10,
@@ -302,7 +293,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731a1ae7179b07c152ce45/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "This unusual lamp will become a real boon for your interior! It consists of two pineapple-shaped perforated lamps. The height of the pendant lights is adjustable.\n\nMaterial: steel."
             },
             {
               "id": 11,
@@ -312,7 +304,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731a31e7179b01e052ce49/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "This elegant luminaire emits diffused warm light. Consists of three pendant lamps on gold-colored mountings, the height is adjustable.\n\nMaterial: steel."
             }
           ]
         },
@@ -328,7 +321,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731a5a5a5a26ac4c272905/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "This ultimate white coffee table will fit perfectly into your living room or office. The glossy surface is easy to wipe off.\n\nDimensions and materials:\n10\" x 8\"\nPlastic"
             },
             {
               "id": 13,
@@ -338,7 +332,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731a70b8b5b03ac625bfb1/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "This stylish small golden table will perfectly fit into your interior. Thanks to the high sides, no objects will slide off this table.\n\nDimensions and materials:\n18\" x 20\"\nSteel"
             },
             {
               "id": 14,
@@ -348,7 +343,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731a92e7179b36f652ce51/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "A small and neat walnut colored bedside cabinet is made of natural wood. It fits perfectly in any bedroom. There are two shelves inside.\n\nDimensions and materials:\n16\" x 19\"\nWalnut wood"
             },
             {
               "id": 15,
@@ -358,7 +354,8 @@
               "image": {
                 "url": "https://e-c.storage.googleapis.com/res/5f731ab65a5a26b660272909/480"
               },
-              "status": "in stock"
+              "status": "in stock",
+              "description": "Stylish side table from one of the best design studios. Functional and minimalistic, it fits perfectly into any interior.\n\nDimensions and materials:\n18\" x 25\"\nPlastic, steel"
             }
           ]
         }
@@ -415,6 +412,173 @@
       "rating": 4.5,
       "comment": "My order arrived really quickly and I was amazed by the quality - PERFECT. I would and have recommended SOFA to others.",
       "created_at": 1651591928000
+    }
+  ],
+  "products": [
+    {
+      "id": 4,
+      "search_name": "fusion-armchair-lexx",
+      "name": "Fusion armchair, LEXX",
+      "price": 320,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f73194a5a5a2681072728fd/480"
+      },
+      "status": "in stock",
+      "description": "It is an incredibly stylish armchair in a trendy mustard color. In it, you can recline comfortably and read a book or work on a laptop.\n\nDimensions and materials:\n25\" x 32\"\nFaux suede, steel"
+    },
+    {
+      "id": 5,
+      "search_name": "aurora-armchair-mds",
+      "name": "Aurora armchair, MDS",
+      "price": 210,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731969f976ca694f91509d/480"
+      },
+      "status": "in stock",
+      "description": "This wide-backed trapezoidal chair will welcome you after or during your hard day and help you relax. It will fit into any interior and is very easy to clean.\n\nDimensions and materials:\n28\" x 37\"\nFaux suede, wood"
+    },
+    {
+      "id": 6,
+      "search_name": "cloud-armchair-dix",
+      "name": "Cloud armchair, DIX",
+      "price": 150,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f7319a4e7179bd92352ce3a/480"
+      },
+      "status": "in stock",
+      "description": "Simple design and vibrant turquoise color are the hallmarks of this armchair. It is versatile: you can make this armchair a striking accent in your interior or create an island of tranquility in your office.\n\nDimensions and materials:\n28\" x 35\"\nFaux suede, wood"
+    },
+    {
+      "id": 7,
+      "search_name": "jeanine-armchair-kuko",
+      "name": "Jeanine armchair, KUKO",
+      "price": 210,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f7319bf5a5a2636662728ff/480"
+      },
+      "status": "out of stock",
+      "description": "This is the very armchair in which you want to drown after a hard day. Wide handrails and padded back allow you to take any position in this armchair.\n\nDimensions and materials:\n28\" x 35\"\nTextile, wood"
+    },
+    {
+      "id": 8,
+      "search_name": "3-piece-minimal-arm",
+      "name": "3-piece Minimal, ARM",
+      "price": 110,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f7319e4f976cad2bd9150a1/480"
+      },
+      "status": "in stock",
+      "description": "This 3-piece white lamp is a perfect fit for a kitchen or living room. It is a versatile lamp that looks good in any interior.\n\nMaterial: painted steel."
+    },
+    {
+      "id": 9,
+      "search_name": "red-drops-kuko",
+      "name": "Red Drops, KUKO",
+      "price": 210,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f7319fa5a5a268c83272901/480"
+      },
+      "status": "in stock",
+      "description": "Do you want to fill the room with muted red light? This lamp from one of the best design studios is perfect for you then. The pendant lamp consists of two glass lamps on cords, the height is adjustable.\n\nMaterials: steel and glass."
+    },
+    {
+      "id": 10,
+      "search_name": "delar-uni-studio",
+      "name": "Delar, Uni Studio",
+      "price": 350,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731a1ae7179b07c152ce45/480"
+      },
+      "status": "in stock",
+      "description": "This unusual lamp will become a real boon for your interior! It consists of two pineapple-shaped perforated lamps. The height of the pendant lights is adjustable.\n\nMaterial: steel."
+    },
+    {
+      "id": 11,
+      "search_name": "bubbles-udion",
+      "name": "Bubbles, Udion",
+      "price": 410,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731a31e7179b01e052ce49/480"
+      },
+      "status": "in stock",
+      "description": "This elegant luminaire emits diffused warm light. Consists of three pendant lamps on gold-colored mountings, the height is adjustable.\n\nMaterial: steel."
+    },
+    {
+      "id": 12,
+      "search_name": "upi-table-landstrom",
+      "name": "Upi table, Landstrom",
+      "price": 90,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731a5a5a5a26ac4c272905/480"
+      },
+      "status": "in stock",
+      "description": "This ultimate white coffee table will fit perfectly into your living room or office. The glossy surface is easy to wipe off.\n\nDimensions and materials:\n10\" x 8\"\nPlastic"
+    },
+    {
+      "id": 13,
+      "search_name": "monica-table-orro",
+      "name": "Monica table, Orro",
+      "price": 110,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731a70b8b5b03ac625bfb1/480"
+      },
+      "status": "in stock",
+      "description": "This stylish small golden table will perfectly fit into your interior. Thanks to the high sides, no objects will slide off this table.\n\nDimensions and materials:\n18\" x 20\"\nSteel"
+    },
+    {
+      "id": 14,
+      "search_name": "snitch-cabinet-arm",
+      "name": "Snitch cabinet, ARM",
+      "price": 100,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731a92e7179b36f652ce51/480"
+      },
+      "status": "in stock",
+      "description": "A small and neat walnut colored bedside cabinet is made of natural wood. It fits perfectly in any bedroom. There are two shelves inside.\n\nDimensions and materials:\n16\" x 19\"\nWalnut wood"
+    },
+    {
+      "id": 15,
+      "search_name": "hugo-table-kuko-studio",
+      "name": "Hugo table, KUKO studio",
+      "price": 99,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731ab65a5a26b660272909/480"
+      },
+      "status": "in stock",
+      "description": "Stylish side table from one of the best design studios. Functional and minimalistic, it fits perfectly into any interior.\n\nDimensions and materials:\n18\" x 25\"\nPlastic, steel"
+    },
+    {
+      "id": 16,
+      "search_name": "lord-armchair-miedel-home",
+      "name": "Lord armchair, Miedel Home",
+      "price": 120,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/original"
+      },
+      "status": "in stock",
+      "description": "Do you want to feel comfortable and hide from the bad weather? This armchair is perfect for relaxing with a book or a cup of tea. It also provides extra back support.\n\nDimensions and materials:\n28\" x 38\"\nFaux suede, wood"
+    },
+    {
+      "id": 17,
+      "search_name": "ultimate-green-chair-xodo-1",
+      "name": "Ultimate Green chair, XODO",
+      "price": 90,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731cb4e7179b1a6552ce5f/original"
+      },
+      "status": "in stock",
+      "description": "Simple yet functional, this chair is perfect for your minimalistic dining room. It will become a bright spot in your interior design and will awaken your appetite.\n\nDimensions and materials:\n21\" x 32\"\nPlastic"
+    },
+    {
+      "id": 18,
+      "search_name": "valetta-armchair-zix-studio",
+      "name": "Valetta armchair, ZIX studio",
+      "price": 310,
+      "image": {
+        "url": "https://e-c.storage.googleapis.com/res/5f731d7be7179b3e8352ce65/original"
+      },
+      "status": "in stock",
+      "description": "An armchair in which you will feel what real comfort is. The original design will suit both the bedroom and the living room, or even a home office. Available only in pink.\n\nDimensions and materials:\n28\" x 35\"\nFaux suede, steel"
     }
   ]
 }

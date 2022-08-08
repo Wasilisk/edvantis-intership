@@ -5,21 +5,25 @@ import Button from "../common/Button";
 import {useMediaQuery} from "../../hooks";
 import HeaderMenu from "./HeaderMenu";
 import {HeaderType} from "../../models";
+import {Link, useNavigate} from "react-router-dom";
 
 const Header = ({logo, navigation}: HeaderType) => {
+    const navigate = useNavigate();
     const isMobile = useMediaQuery("(max-width: 1024px)");
+
+    const handleClick = () => navigate("/shop");
 
     return (
         <HeaderStyles>
-            <div className="logo-block">
+            <Link className="logo-block" to="/">
                 <img src={logo?.url} alt="Logo"/>
-            </div>
+            </Link>
             {
                 isMobile
                     ? <HeaderMenu links={navigation}/>
                     : <>
                         <Navigation links={navigation}/>
-                        <Button variant="outlined" size="small" label="Shop Now" onClick={() => {}}/> //ToDo add OnClick logic
+                        <Button variant="outlined" size="small" label="Shop Now" onClick={handleClick}/>
                     </>
             }
         </HeaderStyles>

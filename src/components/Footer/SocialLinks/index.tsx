@@ -11,13 +11,13 @@ const SocialLinks = ({social_links}: SocialLinksProps) => {
         <SocialLinksStyles>
             <p>Follow Us</p>
             <div className="links">
-                <a href={social_links.facebook} target="_blank" data-testid="facebook-link">
+                <a href={social_links.facebook} target="_blank" rel="noreferrer" data-testid="facebook-link">
                     <FacebookIcon/>
                 </a>
-                <a href={social_links.instagram} target="_blank" data-testid="instagram-link">
+                <a href={social_links.instagram} target="_blank" rel="noreferrer" data-testid="instagram-link">
                     <InstagramIcon/>
                 </a>
-                <a href={social_links.youtube} target="_blank" data-testid="youtube-link">
+                <a href={social_links.youtube} target="_blank" rel="noreferrer" data-testid="youtube-link">
                     <YoutubeIcon/>
                 </a>
             </div>

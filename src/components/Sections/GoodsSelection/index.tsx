@@ -3,9 +3,10 @@ import { GoodsSelectionStyles } from './styles';
 import ProductCard from "../../Cards/ProductCard";
 import {GoodsSelectionType} from "../../../models";
 
-const GoodsSelection = ({title, description, products}: GoodsSelectionType) => {
+const GoodsSelection = ({title, description, products, id_name}: GoodsSelectionType) => {
+
     return (
-        <GoodsSelectionStyles>
+        <GoodsSelectionStyles id={id_name}>
             <div className="text-info">
                 <h4>{title}</h4>
                 <p>{description}</p>

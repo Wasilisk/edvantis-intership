@@ -5,7 +5,7 @@ import OfferCard from "../../Cards/OfferCard";
 
 const Offers = ({offers}: OffersProps) => {
     return (
-        <OffersStyles>
+        <OffersStyles id="#collection">
             {
                 offers.length >= 2 && <>
                     <OfferCard variant="dark" {...offers[0]}/>

@@ -9,15 +9,15 @@ const ProductCard = ({search_name, image, name, price, buttonVariant, status}: P
     const clickHandler = () => console.log(search_name); //ToDo add product card logic
 
     return (
-        <ProductCardStyles>
-            <Link className="card-image" to={search_name}>
+        <ProductCardStyles data-testid="product-card">
+            <Link className="card-image" to={`shop/${search_name}`}>
                 <img src={image?.url} alt={name}/>
                 {
                     status === "out of stock" && <div className="out-of-stock">Out of stock</div>
                 }
             </Link>
             <div className="card-text">
-                <Link to={search_name}>{name}</Link>
+                <Link to={`shop/${search_name}`}>{name}</Link>
                 <p className="highlight">
                     {price.toFixed(2)}USD
                 </p>

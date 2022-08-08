@@ -10,6 +10,7 @@ export const NavigationStyles = styled.ul`
   li {
     list-style: none;
     margin: 5px 8px;
+    cursor: pointer;
     
     a {
       text-decoration: none;

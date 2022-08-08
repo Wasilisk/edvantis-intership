@@ -5,7 +5,7 @@ import FeedbackCard from "../../Cards/FeedbackCard";
 
 const FeedbackSection = ({feedbacks}: FeedbackSectionProps) => {
     return (
-        <FeedbackSectionStyles>
+        <FeedbackSectionStyles id="#feedbacks">
             <div className="wrapper">
                 <h4 className="title">What Our Customers Say</h4>
                 <p className="description">We love your feedback on our products!</p>

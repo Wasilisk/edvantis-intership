@@ -10,6 +10,8 @@ const Portal = ({children}: PortalProps) => {
         return () => {
             document.body.removeChild(container);
         }
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return ReactDOM.createPortal(children, container);

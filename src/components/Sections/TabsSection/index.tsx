@@ -10,7 +10,7 @@ const TabsSection = ({title, description, tabs}: TabsSectionType) => {
     const [value, setValue] = useState<number | string>(tabs[0].id)
 
     return (
-        <TabsSectionStyles>
+        <TabsSectionStyles id="#favourites">
             <div className="text-info">
                 <h4 className="title">{title}</h4>
                 <p className="description">{description}</p>

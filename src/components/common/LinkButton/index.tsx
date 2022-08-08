@@ -13,7 +13,7 @@ const LinkButton = ({
                         ...props
                     }: LinkButtonProps) => {
     return (
-        <LinkButtonStyles to={to}>
+        <LinkButtonStyles to={to} smooth>
             <ButtonStyles fullWidth={fullWidth} hoverVariant={hoverVariant} {...props}>
                 {label}
                 {

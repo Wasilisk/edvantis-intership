@@ -7,7 +7,7 @@ const Promotions = ({promotions}: PromotionsProps) => {
     const isDataCorrect = promotions && promotions.length >=3
 
     return (
-       <PromotionsStyles>
+       <PromotionsStyles id="#promotions">
             {
                 isDataCorrect && promotions.slice(0,3).map(promotion => <PromotionCard
                     key={promotion.id}

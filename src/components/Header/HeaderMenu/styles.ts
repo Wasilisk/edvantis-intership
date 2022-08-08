@@ -13,6 +13,7 @@ export const HeaderMenuStyles = styled.div<HeaderMenuStylesProps>`
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 1;
   padding-top: 100px;
   justify-content: flex-start;
   align-items: center;

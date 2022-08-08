@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-import Layout from "../components/Layout";
 import MainBanner from "../components/Banners/MainBanner";
 import {useAppDispatch, useAppSelector} from "../hooks";
 import {getHomePageData} from "../store/slices/HomePage";
@@ -27,7 +26,7 @@ const Home = () => {
     }, [])
 
     return (
-        <Layout>
+        <>
             {
                 !homepageData.isLoading && <>
                     {homepageData.main_banner && <MainBanner {...homepageData.main_banner}/>}
@@ -40,7 +39,7 @@ const Home = () => {
                     {feedbacks && <FeedbackSection feedbacks={feedbacks}/>}
                 </>
             }
-        </Layout>
+        </>
     );
 };
 

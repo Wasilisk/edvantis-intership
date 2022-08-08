@@ -2,15 +2,11 @@ import { createGlobalStyle } from 'styled-components'
 import {MainPopupStyles} from "./components/Popups/MainPopup/styles";
 
 export const GlobalStyle = createGlobalStyle`
-  html {
-    overflow-y: scroll;
-  }
-  
   body {
     margin: 0;
     font-family: 'Poppins', 'Hind', sans-serif;
     font-weight: 400;
-    overflow-x: hidden;
+    scroll-behavior: smooth;
 
     ::-webkit-scrollbar {
       position: absolute;

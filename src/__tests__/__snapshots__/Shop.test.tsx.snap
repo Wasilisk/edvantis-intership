@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackSection component should render header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf jIYOak"
+  >
+    <h4
+      class="title"
+    >
+      Products (15)
+    </h4>
+    <div
+      class="product-grid"
+    >
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+      <div
+        class="sc-bczRLJ eZuxEp"
+        data-testid="product-card"
+      >
+        <a
+          class="card-image"
+          href="/shop/lord-armchair-miedel-home"
+        >
+          <img
+            alt="Lord armchair, Miedel Home"
+            src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+          />
+        </a>
+        <div
+          class="card-text"
+        >
+          <a
+            href="/shop/lord-armchair-miedel-home"
+          >
+            Lord armchair, Miedel Home
+          </a>
+          <p
+            class="highlight"
+          >
+            120.50USD
+          </p>
+        </div>
+        <button
+          class="sc-gsnTZi bxYKFi"
+          type="button"
+        >
+          Order Now
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -41,5 +41,6 @@ export const FeedbackCardStyles = styled.div`
     letter-spacing: .05em;
     color: #707070;
     margin-top: 30px;
+    overflow-wrap: anywhere;
   }
 `;

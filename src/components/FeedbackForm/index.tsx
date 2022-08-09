@@ -15,11 +15,36 @@ import {toast} from "react-toastify";
 import {FeedbackType} from "../../models";
 import {addFeedback} from "../../store/slices/Feedbacks";
 import {useAppDispatch} from "../../hooks";
+import {FeedbackFormProps} from "./types";
 
-const FeedbackForm = () => {
+const FeedbackForm = ({onClose}: FeedbackFormProps) => {
     const dispatch = useAppDispatch();
     const [isDataUploading, setIsDataUploading] = useState<boolean>(false)
     const [departments, setDepartments] = useState<Nullable<string[]>>(null)
+
+    const submitHandle = () => {
+        data.created_at = Date.now();
+        setIsDataUploading(true);
+        FeedbackService.postFeedback(data)
+            .then((response) => {
+                dispatch(addFeedback(response.data))
+                onClose();
+                toast.success('Your feedback has been sent successfully', {
+                    position: "top-right",
+                    autoClose: 4000,
+                    hideProgressBar: true,
+                    closeOnClick: true,
+                    draggable: true,
+                    progress: undefined,
+                });
+            })
+            .finally(() => {
+                setIsDataUploading(false)
+                resetForm();
+            })
+
+    }
+
     const {
         setFieldValue,
         validateField,
@@ -29,27 +54,7 @@ const FeedbackForm = () => {
         data,
         errors,
     } = useForm<FeedbackType>({
-        onSubmit: () => {
-            data.created_at = Date.now();
-            setIsDataUploading(true);
-            FeedbackService.postFeedback(data)
-                .then((response) => {
-                    dispatch(addFeedback(response.data))
-                    toast.success('Your feedback has been sent successfully', {
-                        position: "top-right",
-                        autoClose: 4000,
-                        hideProgressBar: true,
-                        closeOnClick: true,
-                        draggable: true,
-                        progress: undefined,
-                    });
-                })
-                .finally(() => {
-                    setIsDataUploading(false)
-                    resetForm();
-                })
-
-        },
+        onSubmit: submitHandle,
         initialValues: {
             firstname: '',
             surname: '',

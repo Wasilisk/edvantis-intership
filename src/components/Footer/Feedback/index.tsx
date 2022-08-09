@@ -25,7 +25,7 @@ const Feedback = () => {
                 fullWidth
             />
             <MainPopup title="Leave your feedback" isOpen={isPopupOpen} onClose={closeModal}>
-                <FeedbackForm/>
+                <FeedbackForm onClose={closeModal}/>
             </MainPopup>
         </FeedbackStyles>
     );

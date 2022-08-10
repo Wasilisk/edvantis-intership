@@ -23,7 +23,6 @@ const TabsSection = ({title, description, tabs}: TabsSectionType) => {
                         return <Tab
                             key={tab.id}
                             label={tab.label}
-                            value={tab.id}
                             isActive={value === tab.id}
                             onClick={clickHandler}
                         />

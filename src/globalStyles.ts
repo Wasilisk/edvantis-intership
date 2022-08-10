@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', 'Hind', sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
     ::-webkit-scrollbar {
       position: absolute;

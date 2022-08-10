@@ -6,7 +6,7 @@ export class ProductsService {
         return await axios.get('products');
     }
 
-    static async getProductBySearchName(searchName: string): Promise<AxiosResponse<ProductType>> {
-        return await axios.get(`product?search_name=${searchName}`)
+    static async getProductBySearchName(searchName: string): Promise<AxiosResponse<ProductType[]>> {
+        return await axios.get(`products?search_name=${searchName}`)
     }
 }

@@ -41,8 +41,8 @@ export const ProductsSlice = createSlice({
         builder.addCase(getAllProducts.fulfilled, (state, action: PayloadAction<ProductType[]>) => {
             state.allProducts = action.payload;
         })
-        builder.addCase(getProductBySearchName.fulfilled, (state, action: PayloadAction<ProductType>) => {
-            state.selectedProduct = action.payload;
+        builder.addCase(getProductBySearchName.fulfilled, (state, action: PayloadAction<ProductType[]>) => {
+            state.selectedProduct = action.payload[0];
         })
     },
 

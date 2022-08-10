@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumberInput component should render component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ bGTARi"
+  >
+    <input
+      data-testid="input"
+      max="10"
+      min="1"
+      type="number"
+      value="1"
+    />
+    <div
+      class="input-arrows"
+    >
+      <svg
+        data-testid="plus"
+      >
+        input-arrow.svg
+      </svg>
+      <svg
+        class="down-arrow"
+        data-testid="minus"
+      >
+        input-arrow.svg
+      </svg>
+    </div>
+  </div>
+</DocumentFragment>
+`;

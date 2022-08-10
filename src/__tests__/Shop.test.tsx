@@ -2,7 +2,7 @@ import {render} from "./__utils__/store-wrapper";
 import Shop from "../pages/Shop/Shop";
 import {mockProductCard} from "./__mock__/mock-product-card";
 
-describe('FeedbackSection component', () => {
+describe('Shop component', () => {
     it('should render header component', () => {
         const {asFragment, getByText, getAllByTestId} = render(<Shop/>, {
             initialState: {

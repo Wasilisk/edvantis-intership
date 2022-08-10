@@ -50,7 +50,7 @@ const Product = () => {
                         </div>
                         <div className="actions">
                             <NumberInput min={1} max={10} value={productCount} onChange={setProductCount}/>
-                            <Button variant="filled" size="medium" label="Add to card" fullWidth/>
+                            <Button variant="filled" size="medium" label="Add to cart" fullWidth/>
                         </div>
                         <div className="additional-info">
                             <Tabs>

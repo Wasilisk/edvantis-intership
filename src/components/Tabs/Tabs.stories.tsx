@@ -41,7 +41,6 @@ const Template: Story<{tabs: TabType[]}> = ({tabs}) => {
                         return <Tab
                             key={tab.id}
                             label={tab.label}
-                            value={tab.id}
                             isActive={value === tab.id}
                             onClick={clickHandler}
                         />

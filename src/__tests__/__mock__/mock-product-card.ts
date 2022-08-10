@@ -9,5 +9,10 @@ export const mockProductCard: ProductType = {
         url: "https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
     },
     status: "in stock",
-    description: "description"
+    additional_info: [
+        {
+            name: "description",
+            value: "description value"
+        }
+    ]
 }

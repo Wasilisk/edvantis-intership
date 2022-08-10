@@ -8,6 +8,9 @@ export type ProductType = {
     name: string,
     price: number,
     image: ImageType,
-    status: ProductStatus
-    description: string
+    status: ProductStatus,
+    additional_info: Array<{
+        name: string,
+        value: string
+    }>
 }

@@ -10,14 +10,14 @@ const ProductCard = ({search_name, image, name, price, buttonVariant, status}: P
 
     return (
         <ProductCardStyles data-testid="product-card">
-            <Link className="card-image" to={`shop/${search_name}`}>
+            <Link className="card-image" to={`/shop/${search_name}`}>
                 <img src={image?.url} alt={name}/>
                 {
                     status === "out of stock" && <div className="out-of-stock">Out of stock</div>
                 }
             </Link>
             <div className="card-text">
-                <Link to={`shop/${search_name}`}>{name}</Link>
+                <Link to={`/shop/${search_name}`}>{name}</Link>
                 <p className="highlight">
                     {price.toFixed(2)}USD
                 </p>

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product component should render header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf OyftB"
+  >
+    <div
+      class="product-image"
+    >
+      <img
+        alt="Lord armchair, Miedel Home"
+        src="https://e-c.storage.googleapis.com/res/5f731c835a5a2667cb27290e/480"
+      />
+    </div>
+    <div
+      class="product-info"
+    >
+      <div
+        class="text-info"
+      >
+        <p
+          class="status highlight"
+        >
+          In stock
+        </p>
+        <p
+          class="product-name"
+        >
+          Lord armchair, Miedel Home
+        </p>
+        <p
+          class="product-code"
+        >
+          Product code 1
+        </p>
+        <p
+          class="price"
+        >
+          120.50USD
+        </p>
+      </div>
+      <div
+        class="actions"
+      >
+        <div
+          class="sc-gsnTZi ivbWhk"
+        >
+          <input
+            data-testid="input"
+            max="10"
+            min="1"
+            type="number"
+            value="1"
+          />
+          <div
+            class="input-arrows"
+          >
+            <svg
+              data-testid="plus"
+            >
+              input-arrow.svg
+            </svg>
+            <svg
+              class="down-arrow"
+              data-testid="minus"
+            >
+              input-arrow.svg
+            </svg>
+          </div>
+        </div>
+        <button
+          class="sc-eCYdqJ bWmvnW"
+          type="button"
+        >
+          Add to card
+        </button>
+      </div>
+      <div
+        class="additional-info"
+      >
+        <div
+          class="sc-hKMtZM hRjqbZ"
+        >
+          <div
+            class="tabs"
+            data-testid="tabs"
+          >
+            <div
+              class="sc-bczRLJ cDnWoO"
+            >
+              <span>
+                description
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-panel"
+          data-testid="tab-panel-description"
+          role="tabpanel"
+        >
+          <pre>
+            description value
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

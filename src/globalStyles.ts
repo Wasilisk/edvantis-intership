@@ -2,12 +2,16 @@ import { createGlobalStyle } from 'styled-components'
 import {MainPopupStyles} from "./components/Popups/MainPopup/styles";
 
 export const GlobalStyle = createGlobalStyle`
+  html {
+    overflow-y: scroll;
+  }
   body {
     margin: 0;
     font-family: 'Poppins', 'Hind', sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: scroll;
 
     ::-webkit-scrollbar {
       position: absolute;
@@ -69,6 +73,21 @@ export const GlobalStyle = createGlobalStyle`
   .modal-exit-active ${MainPopupStyles} {
     transition: all 1s;
     transform: translateX(100%) scale(0.5);
+    opacity: 0;
+  }
+
+  .basket-enter {
+    opacity: 0;
+  }
+  .basket-enter-active {
+    transition: all 500ms;
+    opacity: 1;
+  }
+  .basket-exit {
+    opacity: 1;
+  }
+  .basket-exit-active {
+    transition: all 500ms;
     opacity: 0;
   }
 `

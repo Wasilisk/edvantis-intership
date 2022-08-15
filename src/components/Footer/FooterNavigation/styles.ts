@@ -12,6 +12,7 @@ export const FooterNavigationStyles = styled.div`
     font-weight: 500;
     transition: color 0.2s;
     text-align: center;
+    cursor: pointer;
 
     :hover {
       color: #7bb57c;

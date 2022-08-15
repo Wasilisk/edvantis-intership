@@ -4,7 +4,7 @@ export const MainPopupStyles = styled.div`
   min-width: 320px;
   height: 100%;
   background-color: #ffffff;
-  z-index: 1;
+  z-index: 2;
   border-radius: 5px;
   overflow-y: scroll;
   -ms-overflow-style: none;
@@ -23,6 +23,7 @@ export const MainPopupStyles = styled.div`
     border-top-right-radius: 5px;
     position: sticky;
     top: 0;
+    z-index: 3;
 
     h4 {
       font-size: 18px;

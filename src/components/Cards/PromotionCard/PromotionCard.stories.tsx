@@ -1,10 +1,9 @@
 import PromotionCard from "./index";
 import {Story} from "@storybook/react";
 import React from "react";
-import {BrowserRouter} from "react-router-dom";
 import {PromotionType} from "../../../models";
 
-const mockProductCard: PromotionType = {
+const mockPromotion: PromotionType = {
     id: 1,
     image: {
         url: "https://res2.weblium.site/res/5e2f1da2c947890021c3f194/5e334f7786cda400222d1564_optimized_1396?nowebp",
@@ -25,16 +24,9 @@ export default {
     component: PromotionCard,
 };
 
-const Template: Story<PromotionType> = () => <PromotionCard {...mockProductCard}/>;
+const Template: Story<PromotionType> = (props) => <PromotionCard {...props}/>;
 
 export const Default = Template.bind({});
-Default.decorators = [
-    (Story: Story) => {
-        return (
-            <BrowserRouter
-            >
-                <Story/>
-            </BrowserRouter>
-        );
-    },
-];
+Default.args = {
+    ...mockPromotion
+}

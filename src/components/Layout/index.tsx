@@ -6,11 +6,14 @@ import {getAppLayout} from "../../store/slices/AppLayout";
 import {selectFooter, selectHeader} from "../../store/slices/AppLayout/selectors";
 import Footer from "../Footer";
 import {LayoutStyles} from "./styles";
+import BasketBadge from "../BasketBadge";
+import {selectCountOfProducts} from "../../store/slices/Basket/selectors";
 
 const Layout = ({children}: LayoutProps) => {
     const dispatch = useAppDispatch();
     const headerInfo = useAppSelector(selectHeader);
     const footerInfo = useAppSelector(selectFooter);
+    const productsCount = useAppSelector(selectCountOfProducts);
 
     useEffect(() => {
         dispatch(getAppLayout());
@@ -21,6 +24,7 @@ const Layout = ({children}: LayoutProps) => {
     return (
         <LayoutStyles>
             {headerInfo && <Header {...headerInfo}/>}
+            <BasketBadge count={productsCount}/>
             <div className="main-content">{children}</div>
             {footerInfo && <Footer {...footerInfo}/>}
         </LayoutStyles>

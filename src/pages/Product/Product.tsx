@@ -9,6 +9,7 @@ import Tabs from "../../components/Tabs";
 import TabPanel from "../../components/Tabs/TabPanel";
 import Button from "../../components/common/Button";
 import NumberInput from "../../components/common/NumberInput";
+import {addProductToBasket} from "../../store/slices/Basket";
 
 const Product = () => {
     const dispatch = useAppDispatch();
@@ -29,6 +30,14 @@ const Product = () => {
         }
     }, [productInfo])
 
+    const clickHandler = () => {
+        const {additional_info, ...basketProduct} = productInfo!;
+
+        dispatch(addProductToBasket({
+            product: basketProduct,
+            count: productCount
+        }));
+    }
 
     return (
         <ProductPageStyles>
@@ -50,7 +59,13 @@ const Product = () => {
                         </div>
                         <div className="actions">
                             <NumberInput min={1} max={10} value={productCount} onChange={setProductCount}/>
-                            <Button variant="filled" size="medium" label="Add to cart" fullWidth/>
+                            <Button
+                                variant="filled"
+                                size="medium"
+                                label="Add to cart"
+                                fullWidth
+                                onClick={clickHandler}
+                            />
                         </div>
                         <div className="additional-info">
                             <Tabs>

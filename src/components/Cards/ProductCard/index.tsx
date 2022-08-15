@@ -1,12 +1,19 @@
 import React from 'react';
-import { ProductCardStyles } from './styles';
+import {ProductCardStyles} from './styles';
 import {ProductCardProps} from "./types";
 import Button from "../../common/Button";
 import {Link} from "react-router-dom";
+import {useAppDispatch} from "../../../hooks";
+import {addProductToBasket} from "../../../store/slices/Basket";
 
-const ProductCard = ({search_name, image, name, price, buttonVariant, status}: ProductCardProps) => {
+const ProductCard = ({buttonVariant, ...productProps}: ProductCardProps) => {
+    const dispatch = useAppDispatch();
+    const {search_name, image, name, price, status} = productProps;
 
-    const clickHandler = () => console.log(search_name); //ToDo add product card logic
+    const clickHandler = () => dispatch(addProductToBasket({
+        product: productProps,
+        count: 1
+    }));
 
     return (
         <ProductCardStyles data-testid="product-card">

@@ -66,7 +66,7 @@
       },
       "link": {
         "name": "Best-selling products",
-        "to": "#to"
+        "to": "#best_selling"
       }
     },
     "promotions": [
@@ -127,6 +127,7 @@
     "goods_selection": {
       "title": "Best-selling Products",
       "description": "Our customers' faves of the week",
+      "id_name": "#best_selling",
       "products": [
         {
           "id": 1,
@@ -399,6 +400,39 @@
       "rating": 4.5,
       "comment": "My order arrived really quickly and I was amazed by the quality - PERFECT. I would and have recommended SOFA to others.",
       "created_at": 1651591928000
+    },
+    {
+      "firstname": "fasfsdfsd",
+      "surname": "dffdsfsdf",
+      "email": "dsfdese@fdsfsdfsd",
+      "phone_number": "676123123123",
+      "department": "SOFA - 40 Warren St, Boston",
+      "rating": 3.5,
+      "comment": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical ",
+      "created_at": 1660290517067,
+      "id": 5
+    },
+    {
+      "firstname": "Sadfasfda",
+      "surname": "asdfasdfd",
+      "email": "sdaasfas@gmail.com",
+      "phone_number": "3802312312",
+      "department": "SOFA - 40 Warren St, Boston",
+      "rating": 5,
+      "comment": "qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe qweqwe ",
+      "created_at": 1660304143328,
+      "id": 6
+    },
+    {
+      "firstname": "sadasdasd",
+      "surname": "sadasdsa",
+      "email": "sdasdfas@gmail.com",
+      "phone_number": "38012312312",
+      "department": "SOFA - 40 Warren St, Boston",
+      "rating": 4,
+      "comment": "TypeScript is a free and open source ptdrfh fdghhgfdf hdfg  hfghdjtf hdghgfhdgfhdgfhdg hgf  hd hd g fdg",
+      "created_at": 1660573343802,
+      "id": 7
     }
   ],
   "products": [
@@ -642,5 +676,6 @@
         }
       ]
     }
-  ]
+  ],
+  "orders": []
 }

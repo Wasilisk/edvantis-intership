@@ -11,6 +11,7 @@ export const OverlayingPopupStyles = styled.div`
   justify-content: center;
   align-items: flex-start;
   padding: 30px;
+  z-index: 2;
   
   .overlay {
     background-color: rgba(0, 0, 0, 0.5);

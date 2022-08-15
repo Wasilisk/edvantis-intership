@@ -3,7 +3,7 @@ import Button from "../../common/Button";
 import {FeedbackStyles} from './styles';
 import {useDisableBodyScroll} from "../../../hooks";
 import MainPopup from "../../Popups/MainPopup";
-import FeedbackForm from "../../FeedbackForm";
+import FeedbackForm from "../../Forms/FeedbackForm";
 
 const Feedback = () => {
     const [isPopupOpen, setIsPopupOpen] = useState<boolean>(false);

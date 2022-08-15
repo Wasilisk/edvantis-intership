@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BasketBadge component should render header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bczRLJ gPmtV"
+  >
+    <svg
+      data-testid="basket-icon"
+    >
+      basket.svg
+    </svg>
+    <div
+      class="counter"
+      data-testid="counter"
+    >
+      1
+    </div>
+  </div>
+</DocumentFragment>
+`;

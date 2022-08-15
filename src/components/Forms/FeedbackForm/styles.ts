@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {FormFieldStyles} from "../common/FormField/styles";
+import {FormFieldStyles} from "../../common/FormField/styles";
 
 export const FeedbackFormStyles = styled.form`
   

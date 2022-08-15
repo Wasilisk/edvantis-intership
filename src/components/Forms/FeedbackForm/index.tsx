@@ -1,20 +1,20 @@
 import React, {useEffect, useState} from 'react';
 import {FeedbackFormStyles} from "./styles";
-import Input from "../common/Input";
-import FormField from "../common/FormField";
-import StarRating from "../common/StarRating";
-import Select from "../common/Select";
-import Textarea from "../common/Textarea";
-import {AppService, FeedbackService} from "../../services";
-import {OptionType} from "../../models/common";
-import Button from "../common/Button";
-import CustomPhoneInput from "../common/CustomPhoneInput";
-import {useForm} from "../../hooks";
+import Input from "../../common/Input";
+import FormField from "../../common/FormField";
+import StarRating from "../../common/StarRating";
+import Select from "../../common/Select";
+import Textarea from "../../common/Textarea";
+import {AppService, FeedbackService} from "../../../services";
+import {OptionType} from "../../../models/common";
+import Button from "../../common/Button";
+import CustomPhoneInput from "../../common/CustomPhoneInput";
+import {useForm} from "../../../hooks";
 import {FeedbackFormValidation} from "./validation";
 import {toast} from "react-toastify";
-import {FeedbackType} from "../../models";
-import {addFeedback} from "../../store/slices/Feedbacks";
-import {useAppDispatch} from "../../hooks";
+import {FeedbackType} from "../../../models";
+import {addFeedback} from "../../../store/slices/Feedbacks";
+import {useAppDispatch} from "../../../hooks";
 import {FeedbackFormProps} from "./types";
 
 const FeedbackForm = ({onClose}: FeedbackFormProps) => {

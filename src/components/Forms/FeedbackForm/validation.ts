@@ -1,5 +1,5 @@
-import {Validation} from "../../hooks";
-import {FeedbackType} from "../../models";
+import {Validation} from "../../../hooks";
+import {FeedbackType} from "../../../models";
 
 export const FeedbackFormValidation: Partial<Record<keyof FeedbackType, Validation>> = {
     firstname: {

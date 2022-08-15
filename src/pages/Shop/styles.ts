@@ -18,7 +18,7 @@ export const ShopStyles = styled.div`
   .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 30px;
+    grid-row-gap: 40px;
   }
 
   @media (max-width: 1024px) {

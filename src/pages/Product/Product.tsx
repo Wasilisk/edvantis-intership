@@ -65,6 +65,7 @@ const Product = () => {
                                 label="Add to cart"
                                 fullWidth
                                 onClick={clickHandler}
+                                disabled={productInfo.status === "out of stock"}
                             />
                         </div>
                         <div className="additional-info">
